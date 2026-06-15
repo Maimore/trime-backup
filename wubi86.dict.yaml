@@ -20344,7 +20344,7 @@ encoder:         #造词规则
 滞后	igrg	8800
 清泉	igri	4660
 清扬	igrn	1190
-清白	igrr	3820
+清白	igrr	350
 清扫	igrv	3360
 清热	igrv	3680
 消毒柜	igsa	1880
@@ -20423,7 +20423,6 @@ encoder:         #造词规则
 小成	ihdn	1480
 小碗	ihdp	2150
 滤膜	ihea	583
-小月	ihee	2350
 小脚	ihef	1680
 小肠	ihen	2070
 泪腺	iher	319
@@ -20527,7 +20526,8 @@ encoder:         #造词规则
 小看	ihrh	5280
 小气	ihrn	3190
 小鬼	ihrq	7420
-波折	ihrr	2660
+小白	ihrr	350
+波折	ihrr	330
 小手	ihrt	13300
 小指	ihrx	3230
 小桥	ihst	3920
@@ -34651,7 +34651,7 @@ encoder:         #造词规则
 独具一格	qhgs	428
 乐此不疲	qhgu	2090
 外皮	qhhc	2940
-外汇	qhia	32900
+外汇	qhia	3290
 外泄	qhia	3050
 锦上添花	qhia	2030
 外滩	qhic	3390
@@ -45855,12 +45855,12 @@ encoder:         #造词规则
 疲于奔命	ugdw	596
 病态	ugdy	2320
 美乳	ugeb	6750
-美貌	ugee	7170
+美貌	ugee	350
 美肤	ugef	2090
 靖	ugeg	11
 美不胜收	ugen	1370
 决一胜负	ugeq	242
-前列腺	uger	12800
+前列腺	uger	320
 美腿	ugev	14200
 冰天雪地	ugff	1610
 交不起	ugfh	1960
@@ -45948,7 +45948,7 @@ encoder:         #造词规则
 美金	ugqq	11800
 闰年	ugrh	253
 美的	ugrq	41200
-病逝	ugrr	3780
+病逝	ugrr	310
 辣手	ugrt	1360
 资不抵债	ugrw	503
 冷不丁	ugsg	1460
@@ -49896,7 +49896,7 @@ encoder:         #造词规则
 便签	wgtw	667
 登第	wgtx	342
 全篇	wgty	1050
-合并	wgua	25000
+合并	wgua	5000
 债券	wgud	15600
 便装	wguf	783
 倒闭	wguf	8080
@@ -49907,7 +49907,7 @@ encoder:         #造词规则
 倒闸	wgul	2190
 人来疯	wgum	161
 合资	wguq	18400
-全新	wgus	73900
+全新	wgus	3900
 便道	wgut	1100
 倒立	wguu	1750
 侠	wguw	11
@@ -50044,7 +50044,7 @@ encoder:         #造词规则
 个头	whud	9870
 修养	whud	11100
 修剪	whue	4080
-悠闲	whus	11900
+悠闲	whus	3990
 修好	whvb	3560
 修建	whvf	11600
 健步如飞	whvn	102
