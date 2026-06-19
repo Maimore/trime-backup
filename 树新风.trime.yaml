@@ -476,7 +476,7 @@ preset_keyboards:
       - {click: 货币, long_click: 十, key_text_size: "16"}
       - {click: 下标, long_click: 上标, key_text_size: "16"}
       - {click: 天体, long_click: 星座, key_text_size: "16"}
-      - {click: 罗马, long_click: 罗马大写, key_text_size: "16"}
+      - {click: 罗马, long_click: 罗马小写, key_text_size: "16"}
       - {click: 标点, long_click: 零, key_text_size: "16"}
       - {click: 拼音, long_click: 竖标点, key_text_size: "16"}
       - {click: 注音, long_click: 偏旁, key_text_size: "16"}
@@ -877,7 +877,7 @@ preset_keys:
   希腊: {text: '{Escape}/xl', label: 希腊, functional: false}
   希腊大写: {text: '{Escape}/xld', label: 大写, functional: false}
   罗马: {text: '{Escape}/lm', label: 罗马, functional: false}
-  罗马大写: {text: '{Escape}/lmd', label: 大写, functional: false}
+  罗马小写: {text: '{Escape}/lmx', label: 小写, functional: false}
   俄语: {text: '{Escape}/ey', label: 俄语, functional: false}
   俄语大写: {text: '{Escape}/eyd', label: 大写, functional: false}
   表情: {text: '{Escape}/bq', label: "\uE56C"}
