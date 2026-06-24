@@ -7,55 +7,54 @@ author: "讲文明"
 
 #颜色
 colors:
-  ⓧ: &透明 0x00
-  ◯: &白 0xffffffff
-  ⚫: &黑 0xff000000
-  ⚪: &浅灰 0xffe1e3e7
-  ⚪: &中灰 0xffacb2c2
-  ⚪: &深灰 0xff838383
-  🔵: &深蓝 0xff3266a0
-  🔵: &亮蓝 0xff0080ff
+  ⓧ: &Transparent 0x00
+  ◯: &White 0xffffffff
+  ⚫: &Black 0xff000000
+  ⚪: &Light_gray 0xffeeeeee
+  ⚪: &Grayish_blue 0xffc9cdd8
+  ⚪: &Drak_gray 0xff999999
+  🔵: &Vivid_blue 0xff0d80f2
 
 #配色方案
 preset_color_schemes:
   default:
     name: "标配"
     # dark_scheme: glass
-    keyboard_back_color: *浅灰 #键盘背景
+    keyboard_back_color: *Light_gray #键盘背景
   #按键
-    key_border_color: *深灰 #按键边框
-    key_text_color: *黑 #按键文本
-    key_symbol_color: *深灰 #按键符号
-    key_back_color: *白 #按键背景
-    hilited_key_text_color: *黑 #高亮按键文本
-    hilited_key_symbol_color: *深灰 #高亮按键符号
-    hilited_key_back_color: *浅灰 #高亮按键背景
+    key_border_color: *Drak_gray #按键边框
+    key_text_color: *Black #按键文本
+    key_symbol_color: *Drak_gray #按键符号
+    key_back_color: *White #按键背景
+    hilited_key_text_color: *Black #高亮按键文本
+    hilited_key_symbol_color: *Drak_gray #高亮按键符号
+    hilited_key_back_color: *Light_gray #高亮按键背景
   #功能键
-    off_key_text_color: *黑 #功能键文本
-    off_key_back_color: *中灰 #功能键背景
-    on_key_back_color: *浅灰 #功能键锁定背景
-    on_key_text_color: *黑 #功能键锁定文本
-    hilited_off_key_text_color: *黑 #高亮键文本
-    hilited_off_key_back_color: *浅灰 #高亮键背景
-    blue_key: {key_back_color: *深蓝, hilited_key_back_color: *浅灰, key_text_color: *白, hilited_key_text_color: *白}
+    off_key_text_color: *Black #功能键文本
+    off_key_back_color: *Grayish_blue #功能键背景
+    on_key_back_color: *Light_gray #功能键锁定背景
+    on_key_text_color: *Black #功能键锁定文本
+    hilited_off_key_text_color: *Black #高亮键文本
+    hilited_off_key_back_color: *Light_gray #高亮键背景
+    blue_key: {key_back_color: *Vivid_blue, hilited_key_back_color: *Light_gray, key_text_color: *White, hilited_key_text_color: *White}
   #编码
-    text_color: *亮蓝 #编码
-    text_back_color: *白 #编码/浮窗背景
-    hilited_text_color: *亮蓝 #高亮编码
+    text_color: *Vivid_blue #编码
+    text_back_color: *White #编码/浮窗背景
+    hilited_text_color: *Vivid_blue #高亮编码
   #候选
-    back_color: *浅灰 #候选区背景
-    candidate_border_color: *深灰 #候选/浮窗边框
-    candidate_separator_color: *浅灰 #候选分割线
-    candidate_text_color: *黑 #候选文本
-    label_color: *深灰 #候选序号
-    hilited_candidate_back_color: *亮蓝 #高亮背景
-    hilited_candidate_text_color: *白 #高亮文本
-    comment_text_color: *深灰 #提示
-    hilited_comment_text_color: *黑 #高亮提示
+    back_color: *Light_gray #候选区背景
+    candidate_border_color: *Drak_gray #候选/浮窗边框
+    candidate_separator_color: *Light_gray #候选分割线
+    candidate_text_color: *Black #候选文本
+    label_color: *Drak_gray #候选序号
+    hilited_candidate_back_color: *Vivid_blue #高亮背景
+    hilited_candidate_text_color: *White #高亮文本
+    comment_text_color: *Drak_gray #提示
+    hilited_comment_text_color: *Black #高亮提示
   #气泡
-    popup_back_color: *浅灰 #气泡背景
-    hilited_popup_back_color: *白 #高亮气泡背景
-    hilited_popup_text_color: *亮蓝 #高亮气泡文字
+    popup_back_color: *Light_gray #气泡背景
+    hilited_popup_back_color: *White #高亮气泡背景
+    hilited_popup_text_color: *Vivid_blue #高亮气泡文字
 
 #保留一项，防止其他主题使用__include时无法加载
 fallback_colors: #后备配色
@@ -152,14 +151,14 @@ tool_bar:
     background:  #背景样式设置
       type: rectangle #高亮形状(可选:circle|rectangle)
       corner_radius: 10 #圆角半径
-      normal: *透明 #正常状态背景颜色
-      highlight: *浅灰 #高亮状态背景色
+      normal: *Transparent #正常状态背景颜色
+      highlight: *Light_gray #高亮状态背景色
       vertical_inset: 6 #垂直方向内缩量
       horizontal_inset: 10 #水平方向内缩量
     foreground:  #前景内容设置
       style: "" #（内置图标以ic@开头）前景样式为空，将显示为 action 的 label
-      # normal: *黑 #正常状态前景色
-      # highlight: *深灰 #高亮状态前景色
+      # normal: *Black #正常状态前景色
+      # highlight: *Drak_gray #高亮状态前景色
       padding: 7 #前景内容与背景边界的内边距
       font_size: 23 #字体尺寸
     size: [55, 40] #视图组件整体宽高
@@ -279,7 +278,7 @@ preset_keyboards:
       - {click: p, long_click: 0}
     #第二行
       - {width: 5}
-      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明}
+      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *Transparent}
       - {click: a, long_click: select_all}
       - {click: s, long_click: "/"}
       - {click: d, long_click: "\\"}
@@ -290,7 +289,7 @@ preset_keyboards:
       - {click: k, long_click: "["}
       - {click: l, long_click: "]"}
       - {width: 5}
-      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明}
+      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *Transparent}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, width: 12}
       - {click: z, long_click: "`", width: 11}
@@ -335,13 +334,13 @@ preset_keyboards:
       - {click: o, label: "O   P", long_click: "、", swipe_right: p, swipe_down: 5, key_text_size: 22}
     #第二行
       - {width: 5}
-      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明}
+      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *Transparent}
       - {click: a, label: "A   S", long_click: "(){Left}", swipe_right: s, swipe_down: 6, width: 18, key_text_size: 22}
       - {click: d, label: "D   F", long_click: "@", swipe_up: Date, swipe_right: f, swipe_down: 7, width: 18, key_text_size: 22}
       - {click: g, label: "G   H", long_click: '"', swipe_right: h, swipe_down: 8, width: 18, key_text_size: 22}
       - {click: j, label: "J   K", long_click: "/", swipe_up: ChineseDate, swipe_right: k, swipe_down: 9, width: 18, key_text_size: 22}
       - {click: l, long_click: "#", swipe_left: Ⅰ, swipe_right: Ⅱ, swipe_down: 0, width: 17}
-      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明}
+      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *Transparent}
       - {width: 5}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, swipe_down: Tab, width: 14}
