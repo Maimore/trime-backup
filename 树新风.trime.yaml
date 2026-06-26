@@ -10,24 +10,23 @@ colors:
   ⓧ: &Transparent 0x00
   ◯: &White 0xffffffff
   ⚫: &Black 0xff000000
+  ⚫: &Black_40% 0x66000000
   ⚪: &Light_gray 0xffeeeeee
   ⚪: &Grayish_blue 0xffc9cdd8
-  ⚪: &Drak_gray 0xff999999
   🔵: &Vivid_blue 0xff0d80f2
 
 #配色方案
 preset_color_schemes:
   default:
     name: "标配"
-    # dark_scheme: glass
     keyboard_back_color: *Light_gray #键盘背景
   #按键
-    key_border_color: *Drak_gray #按键边框
+    key_border_color: *Black_40% #按键边框
     key_text_color: *Black #按键文本
-    key_symbol_color: *Drak_gray #按键符号
+    key_symbol_color: *Black_40% #按键符号
     key_back_color: *White #按键背景
     hilited_key_text_color: *Black #高亮按键文本
-    hilited_key_symbol_color: *Drak_gray #高亮按键符号
+    hilited_key_symbol_color: *Black_40% #高亮按键符号
     hilited_key_back_color: *Light_gray #高亮按键背景
   #功能键
     off_key_text_color: *Black #功能键文本
@@ -36,20 +35,20 @@ preset_color_schemes:
     on_key_text_color: *Black #功能键锁定文本
     hilited_off_key_text_color: *Black #高亮键文本
     hilited_off_key_back_color: *Light_gray #高亮键背景
-    blue_key: {key_back_color: *Vivid_blue, hilited_key_back_color: *Light_gray, key_text_color: *White, hilited_key_text_color: *White}
+    blue_key: {key_back_color: *Vivid_blue, hilited_key_back_color: *Light_gray, key_text_color: *White, hilited_key_text_color: *Black}
   #编码
     text_color: *Vivid_blue #编码
     text_back_color: *White #编码/浮窗背景
     hilited_text_color: *Vivid_blue #高亮编码
   #候选
     back_color: *Light_gray #候选区背景
-    candidate_border_color: *Drak_gray #候选/浮窗边框
+    candidate_border_color: *Black_40% #候选/浮窗边框
     candidate_separator_color: *Light_gray #候选分割线
     candidate_text_color: *Black #候选文本
-    label_color: *Drak_gray #候选序号
+    label_color: *Black_40% #候选序号
     hilited_candidate_back_color: *Vivid_blue #高亮背景
     hilited_candidate_text_color: *White #高亮文本
-    comment_text_color: *Drak_gray #提示
+    comment_text_color: *Black_40% #提示
     hilited_comment_text_color: *Black #高亮提示
   #气泡
     popup_back_color: *Light_gray #气泡背景
@@ -82,7 +81,7 @@ style:
   key_width: 10 #键宽
   key_height: 40 #键高
   key_text_size: 22 #按键字号
-  symbol_text_size: 11 #按键符号字号
+  symbol_text_size: 10 #按键符号字号
   key_long_text_size: 19 #长标签字号
   key_border: 1 #按键边框宽度
   round_corner: 12 #按键圆角半径
@@ -158,7 +157,7 @@ tool_bar:
     foreground:  #前景内容设置
       style: "" #（内置图标以ic@开头）前景样式为空，将显示为 action 的 label
       # normal: *Black #正常状态前景色
-      # highlight: *Drak_gray #高亮状态前景色
+      # highlight: *Black_40% #高亮状态前景色
       padding: 7 #前景内容与背景边界的内边距
       font_size: 23 #字体尺寸
     size: [55, 40] #视图组件整体宽高
@@ -320,6 +319,7 @@ preset_keyboards:
   wubi86_double_key:
     author: "讲文明"
     ascii_mode: 0
+    reset_ascii_mode: true
     ascii_keyboard: ascii
     width: 20
     key_symbol_offset_x: 24
