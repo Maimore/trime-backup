@@ -276,8 +276,8 @@ preset_keyboards:
       - {click: o, long_click: 9}
       - {click: p, long_click: 0}
     #第二行
-      - {width: 5}
-      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明}
+      # - {width: 5}
+      - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明, key_border: 0}
       - {click: a, long_click: select_all}
       - {click: s, long_click: "/"}
       - {click: d, long_click: "\\"}
@@ -287,8 +287,8 @@ preset_keyboards:
       - {click: j, long_click: "'"}
       - {click: k, long_click: "["}
       - {click: l, long_click: "]"}
-      - {width: 5}
-      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明}
+      # - {width: 5}
+      - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明, key_border: 0}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, width: 12}
       - {click: z, long_click: "`", width: 11}
@@ -333,15 +333,15 @@ preset_keyboards:
       - {click: u, label: "U   I", long_click: ":", swipe_right: i, swipe_down: 4, key_text_size: 22}
       - {click: o, label: "O   P", long_click: "、", swipe_right: p, swipe_down: 5, key_text_size: 22}
     #第二行
-      - {width: 5}
-      # - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明}
+      # - {width: 5}
+      - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明, key_border: 0, key_border: 0}
       - {click: a, label: "A   S", long_click: "(){Left}", swipe_right: s, swipe_down: 6, width: 18, key_text_size: 22}
       - {click: d, label: "D   F", long_click: "@", swipe_up: Date, swipe_right: f, swipe_down: 7, width: 18, key_text_size: 22}
       - {click: g, label: "G   H", long_click: '"', swipe_right: h, swipe_down: 8, width: 18, key_text_size: 22}
       - {click: j, label: "J   K", long_click: "/", swipe_up: ChineseDate, swipe_right: k, swipe_down: 9, width: 18, key_text_size: 22}
       - {click: l, long_click: "#", swipe_left: Ⅰ, swipe_right: Ⅱ, swipe_down: 0, width: 17}
-      # - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明}
-      - {width: 5}
+      - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明, key_border: 0}
+      # - {width: 5}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, swipe_down: Tab, width: 14}
       - {click: x, label: "Z   X", long_click: cut, swipe_left: z, swipe_up: select_cut, width: 18, key_text_size: 22}
@@ -351,9 +351,9 @@ preset_keyboards:
       - {click: BackSpace, swipe_up: Escape, swipe_down: Delete, swipe_left: Clear, width: 16}
     #第四行
       - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Eleme, Hand_writing, Notes, Bing], width: 14}
-      - {click: ",", label: " ，️", swipe_up: "?", popup: [Pin, Forward], width: 14, key_text_size: 18}
+      - {click: ",", label: " ，️", swipe_up: "?", width: 14, key_text_size: 18}
       - {click: space, width: 42}
-      - {click: ".", label: " 。", swipe_up: "!", popup: [Reset, Backward], width: 14, key_text_size: 18}
+      - {click: ".", label: " 。", swipe_up: "!", width: 14, key_text_size: 18}
       - {click: Return, popup: [Theme_settings, set_theme], width: 16, __include: /preset_color_schemes/default/blue_key}
     name: "五笔86双键"
 
@@ -421,13 +421,13 @@ preset_keyboards:
     keys: 
       - {width: 100, height: 2}
       - {width: 4}
-      - {click: wubi86_scheme, hint: 五笔, key_text_size: 32}
-      - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 32}
-      - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 32}
-      - {click: pinyin_scheme, hint: 拼音, key_text_size: 32}
+      - {click: wubi86_scheme, hint: 五笔, key_text_size: 35}
+      - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 35}
+      - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 35}
+      - {click: pinyin_scheme, hint: 拼音, key_text_size: 35}
       - {width: 100, height: 20}
       - {width: 33}
-      - {click: Keyboard_default, width: 35, height: 17, key_text_offset_y: 1}
+      - {click: Keyboard_default, label: "\uE04A", width: 35, height: 17, key_text_offset_y: 1, key_border: 0}
       - {width: 100, height: 5}
     name: "键盘布局"
 
