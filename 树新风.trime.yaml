@@ -90,7 +90,7 @@ style:
   key_symbol_offset_x: 10 #上标左右偏移
   key_symbol_offset_y: 5 #上标上下偏移
   key_hint_offset_x: 0 #下标左右偏移
-  key_hint_offset_y: -5 #下标上下偏移
+  key_hint_offset_y: -9 #下标上下偏移
   key_press_offset_x: 1.5 #按下横向偏移
   key_press_offset_y: 1.5 #按下纵向偏移
 #键盘
@@ -172,7 +172,7 @@ tool_bar:
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
       horizontal_inset: 10 #水平方向内缩量
     foreground:
-      padding: 0
+      padding: 1
       font_size: 33
     size: [46, 40]
     action: Hide
@@ -413,14 +413,14 @@ preset_keyboards:
     author: "讲文明"
     ascii_mode: 0
     width: 23
-    height: 20
-    horizontal_gap: 22
+    height: 19
+    horizontal_gap: 24
     vertical_gap: 8
     key_text_offset_y: -5
     lock: false
     keys: 
-      - {width: 100, height: 2}
-      - {width: 4}
+      - {width: 100, height: 3}
+      - {width: 3.5}
       - {click: wubi86_scheme, hint: 五笔, key_text_size: 35}
       - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 35}
       - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 35}
