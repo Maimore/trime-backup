@@ -68,13 +68,13 @@ style:
   candidate_padding: 15 #候选项内边距
   candidate_spacing: 0.5 #候选间隔线宽
   candidate_view_height: 26 #候选区高度
-  candidate_corner_radius: 11 #候选项圆角半径
+  candidate_corner_radius: 15 #候选项圆角半径
   candidate_text_vertical_bias: 0.5 #候选垂直偏移
   candidate_border: 1 #候选区边框线宽
-  candidate_border_round: 12 #候选区边框圆角
+  candidate_border_round: 15 #候选区边框圆角
 #提示
   comment_text_size: 8 #提示字号
-  comment_height: 8 #（调节候选上下空间）
+  comment_height: 9 #（调节候选上下空间）
   comment_position: right #位置right/top/overlay
   comment_vertical_bias: 1.0 #提示垂直偏移
 #按键
@@ -84,7 +84,7 @@ style:
   symbol_text_size: 10 #按键符号字号
   key_long_text_size: 19 #长标签字号
   key_border: 1 #按键边框宽度
-  round_corner: 12 #按键圆角半径
+  round_corner: 11 #按键圆角半径
   key_text_offset_x: 0 #按键文字左右偏移
   key_text_offset_y: 0 #按键文字上下偏移
   key_symbol_offset_x: 10 #上标左右偏移
