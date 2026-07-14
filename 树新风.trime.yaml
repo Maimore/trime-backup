@@ -18,7 +18,7 @@ colors:
 #配色方案
 preset_color_schemes:
   default:
-    name: "标配"
+    name: "没的选"
     keyboard_back_color: *浅灰 #键盘背景
   #按键
     key_border_color: *黑40% #按键边框
@@ -65,18 +65,18 @@ fallback_colors: #后备配色
 style:
 #候选
   candidate_text_size: 20 #候选字号
-  candidate_padding: 15 #候选项内边距
+  candidate_padding: 18 #候选项内边距
   candidate_spacing: 0.5 #候选间隔线宽
-  candidate_view_height: 26 #候选区高度
+  candidate_view_height: 25 #候选区高度
   candidate_corner_radius: 15 #候选项圆角半径
   candidate_text_vertical_bias: 0.5 #候选垂直偏移
   candidate_border: 1 #候选区边框线宽
   candidate_border_round: 15 #候选区边框圆角
 #提示
   comment_text_size: 8 #提示字号
-  comment_height: 9 #（调节候选上下空间）
-  comment_position: right #位置right/top/overlay
-  comment_vertical_bias: 1.0 #提示垂直偏移
+  comment_height: 10 #（调节候选上下空间）
+  comment_position: overlay #位置right/top/overlay
+  comment_vertical_bias: 1.1 #提示垂直偏移
 #按键
   key_width: 10 #键宽
   key_height: 40 #键高
@@ -90,7 +90,7 @@ style:
   key_symbol_offset_x: 10 #上标左右偏移
   key_symbol_offset_y: 5 #上标上下偏移
   key_hint_offset_x: 0 #下标左右偏移
-  key_hint_offset_y: -9 #下标上下偏移
+  key_hint_offset_y: -6 #下标上下偏移
   key_press_offset_x: 1.5 #按下横向偏移
   key_press_offset_y: 1.5 #按下纵向偏移
 #键盘
@@ -360,6 +360,7 @@ preset_keyboards:
   pinyin_jiugong:
     author: "Uncle光"
     ascii_mode: 0
+    reset_ascii_mode: true
     ascii_keyboard: ascii
     width: 22
     key_symbol_offset_x: 30
@@ -425,10 +426,10 @@ preset_keyboards:
       - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 35}
       - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 35}
       - {click: pinyin_scheme, hint: 拼音, key_text_size: 35}
-      - {width: 100, height: 20}
-      - {width: 33}
-      - {click: Keyboard_default, label: "\uE04A", width: 35, height: 17, key_text_offset_y: 1, key_border: 0}
-      - {width: 100, height: 5}
+      - {width: 100, height: 19}
+      - {width: 38}
+      - {click: Keyboard_default, label: "\uE04A", height: 20, key_text_offset_y: 1, key_border: 0, round_corner: 33}
+      - {width: 100, height: 6}
     name: "键盘布局"
 
   symbols:
@@ -776,6 +777,8 @@ preset_keys:
   Jingdong: {label: "\uE653", send: function, command: run, option: "com.jd.waimai"} #京东
   Meituan: {label: "\uE641", send: function, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
   Eleme: {label: "\uE642", send: function, command: run, option: "me.ele"} #饿了么
+  # Meituan: {label: 树, command: "intent:#Intent;action=android.intent.action.VIEW;data=file:///storage/emulated/0/rime/wubi86.dict.yaml;type=text/plain;end"}
+
 
 #符号
   Keyboard_zhongfu1: {label: "上页", functional: true, send: Eisu_toggle, select: zhongfu1}
