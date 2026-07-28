@@ -74,7 +74,7 @@ style:
   candidate_border_round: 15 #候选区边框圆角
 #提示
   comment_text_size: 8 #提示字号
-  comment_height: 10 #（调节候选上下空间）
+  comment_height: 9 #（调节候选上下空间）
   comment_position: overlay #位置right/top/overlay
   comment_vertical_bias: 1.1 #提示垂直偏移
 #按键
@@ -95,14 +95,14 @@ style:
   key_press_offset_y: 1.5 #按下纵向偏移
 #键盘
   reset_ascii_mode_on_focus_change: false #焦点变更弹起软键盘时重置 ascii_mode
-  horizontal_gap: 5 #按键间距
-  vertical_gap: 6 #按键行距
+  horizontal_gap: 4 #按键间距
+  vertical_gap: 5 #按键行距
   keyboard_height: 250 #锁定键盘高度
-  keyboard_height_land: 220 #锁定横屏键盘高度
-  keyboard_padding_bottom: 15 #竖屏底边距
-  keyboard_padding_land_bottom: 8 #横屏底边距
+  keyboard_height_land: 200 #锁定横屏键盘高度
+  keyboard_padding_bottom: 18 #竖屏底边距
+  keyboard_padding_land_bottom: 10 #横屏底边距
   keyboard_padding: 0 #竖屏两侧边距
-  keyboard_padding_land: 70 #横屏两侧边距
+  keyboard_padding_land: 90 #横屏两侧边距
 #[字体]
   key_font: [iconfont.ttf] #按键字体
   symbol_font: [iconfont.ttf] #符号字体
@@ -149,11 +149,11 @@ tool_bar:
   primary_button: 
     background:  #背景样式设置
       type: rectangle #高亮形状(可选:circle|rectangle)
-      corner_radius: 10 #圆角半径
+      corner_radius: 40 #圆角半径
       normal: *透明 #正常状态背景颜色
       highlight: *浅灰 #高亮状态背景色
       vertical_inset: 6 #垂直方向内缩量
-      horizontal_inset: 10 #水平方向内缩量
+      horizontal_inset: 12 #水平方向内缩量
     foreground:  #前景内容设置
       style: "" #（内置图标以ic@开头）前景样式为空，将显示为 action 的 label
       # normal: *黑 #正常状态前景色
@@ -170,7 +170,7 @@ tool_bar:
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
-      horizontal_inset: 10 #水平方向内缩量
+      horizontal_inset: 8 #水平方向内缩量
     foreground:
       padding: 1
       font_size: 33
@@ -276,7 +276,6 @@ preset_keyboards:
       - {click: o, long_click: 9}
       - {click: p, long_click: 0}
     #第二行
-      # - {width: 5}
       - {click: Left, popup: [Pin, Forward], width: 5, key_back_color: *透明, key_border: 0}
       - {click: a, long_click: select_all}
       - {click: s, long_click: "/"}
@@ -287,7 +286,6 @@ preset_keyboards:
       - {click: j, long_click: "'"}
       - {click: k, long_click: "["}
       - {click: l, long_click: "]"}
-      # - {width: 5}
       - {click: Right, popup: [Reset, Backward], width: 5, key_back_color: *透明, key_border: 0}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, width: 12}
@@ -398,6 +396,7 @@ preset_keyboards:
     __include: /preset_keyboards/pinyin_jiugong
     __patch: 
       "keys/@4/click": Keyboard_ascii
+      "keys/@7/swipe_right": ':'
       "keys/@15":
         click: Keyboard_default
         width: 17
@@ -422,10 +421,10 @@ preset_keyboards:
     keys: 
       - {width: 100, height: 3}
       - {width: 3.5}
-      - {click: wubi86_scheme, hint: 五笔, key_text_size: 35}
-      - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 35}
-      - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 35}
-      - {click: pinyin_scheme, hint: 拼音, key_text_size: 35}
+      - {click: wubi86_scheme, hint: 五笔, key_text_size: 33}
+      - {click: wubi86_double_key_scheme, hint: 双键五笔, key_text_size: 32}
+      - {click: pinyin_jiugong_scheme, hint: 九宫拼音, key_text_size: 33}
+      - {click: pinyin_scheme, hint: 拼音, key_text_size: 33}
       - {width: 100, height: 19}
       - {width: 38}
       - {click: Keyboard_default, label: "\uE04A", height: 20, key_text_offset_y: 1, key_border: 0, round_corner: 33}
