@@ -1,7 +1,7 @@
 # Trime default style settings
 # encoding: utf-8
 
-config_version: "5.5"
+config_version: "5.6"
 name: "树新风"
 author: "讲文明"
 
@@ -65,16 +65,16 @@ fallback_colors: #后备配色
 style:
 #候选
   candidate_text_size: 20 #候选字号
-  candidate_padding: 18 #候选项内边距
+  candidate_padding: 17 #候选项内边距
   candidate_spacing: 0.5 #候选间隔线宽
   candidate_view_height: 25 #候选区高度
-  candidate_corner_radius: 15 #候选项圆角半径
+  candidate_corner_radius: 14 #候选项圆角半径
   candidate_text_vertical_bias: 0.5 #候选垂直偏移
   candidate_border: 1 #候选区边框线宽
   candidate_border_round: 15 #候选区边框圆角
 #提示
-  comment_text_size: 8 #提示字号
-  comment_height: 9 #（调节候选上下空间）
+  comment_text_size: 7 #提示字号
+  comment_height: 10 #（调节候选上下空间）
   comment_position: overlay #位置right/top/overlay
   comment_vertical_bias: 1.1 #提示垂直偏移
 #按键
@@ -126,7 +126,7 @@ preedit:
 window:
   insets: #窗口内边距
     vertical: 4 #纵向（整数）
-    horizontal: 4 #横向（整数）
+    horizontal: 5 #横向（整数）
   item_padding: #候选项内边距
     vertical: 5 #纵向（整数）
     horizontal: 11 #横向（整数）
@@ -169,7 +169,7 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
       horizontal_inset: 8 #水平方向内缩量
     foreground:
       padding: 1
@@ -182,13 +182,13 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       style: "\uE018"
       padding: 9
       font_size: 20
     size: [43, 40]
-    action: Keyboard_yingfu
+    action: liquid_keyboard_ascii
     long_press_action: Keyboard_symbols
 #剪贴板
   clip: &clip
@@ -196,12 +196,13 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       padding: 9
       font_size: 20
     size: [43, 40]
     action: clipboard_window
+    long_press_action: favorites
 #恢复
   redo: &redo
     size: [44, 40]
@@ -209,7 +210,7 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       padding: 9
       font_size: 19
@@ -220,7 +221,7 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       padding: 9
       font_size: 19
@@ -232,7 +233,7 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       padding: 8
       font_size: 22
@@ -245,7 +246,7 @@ tool_bar:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
-      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}
+      vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       style: "\uE076"
       padding: 9
@@ -254,6 +255,72 @@ tool_bar:
     action: Keyboard_ascii
 #右侧按钮列表（从右向左排列）
   buttons: [*hide, *yingfu, *clip, *redo, *undo, *layout, *toggle]
+
+#液态键盘
+liquid_keyboard:
+  single_width: 69    #按键宽度
+  margin_x: 4        #按键间隙
+  fixed_key_bar:      #固定按键条
+    position: bottom  #摆放位置 top|bottom|left|right
+    keys:             #按键（显示对应的label）
+      - liquid_keyboard_exit
+      - liquid_keyboard_clipboard
+      - liquid_keyboard_tabs
+      - liquid_keyboard_backspace
+      - liquid_keyboard_return
+  keyboards: [ascii, cn, unit, math, ordinal, pinyin, symbol, script_symbols, grease, rusa, yinbiao, symbollist, tabs]  #tab列表
+  tabs:
+    name: 更多
+    type: TABS
+  math:   #tab名称
+    type: SINGLE
+    name: 数学
+    keys: "≈＝≠≌<>≤≥≡()[]{}-+±×*/÷&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•√〒∝∽∈∩∧⊙⌒∥∟∣∂∆∞≌∉∪∨⊕⊿⊥∠∫∬∭"  #tab中的按键列表
+  ascii:
+    type: SINGLE
+    name: 英文
+    keys: ",.?!:;/\\|*+-=_$`'\"^~@#%&()[]{}"
+  cn:
+    type: SINGLE
+    name: 中文
+    keys: [；, ：, 、, ·, ……, ——, “, ”, ‘, ’, （, ）, 《, 》, 【, 】, ［, ］, ｛, ｝, 「, 」, 『, 』]
+
+  symbol:
+    name: 特殊
+    type: SINGLE
+    keys: "㞢△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✔✘✓✗☼☽☾◑◐㏂㏘☭♀♂☹☻☠☜☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ⇦⇧⇨⇩⇪↖↑↗←↔→↙↓↘⇄⇅⇆⇤↩⇥▸◂▴▾◤◥◣◢㊤㊧㊥㊨㊦❏❐◲〼▢▣↶✁↷✍⏍ϟ✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶⟲ღ✈☂𮯰"
+  unit:
+    name: 单位
+    type: SINGLE
+    keys: "℃¥$€฿￡㎡m³℉￥£￠₠¹²³⁴⁵ⁿ⁶⁷⁸⁹⁰ˣ⁺⁻⁼⁽⁾½⅓¼⅔¾₁₂₃₄₅ₙ₆₇₈₉₀ₓ₊₋₌₍₎℅"
+  ordinal:
+    name: 序号
+    type: SINGLE
+    keys: "①②③④⑤⑥⑦⑧⑨⑩⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩➊➋➌➍➎➏➐➑➒➓㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ"
+  pinyin:
+    name: 拼音
+    type: SINGLE
+    keys: "āáǎàōóēéěèǒòīíǐìūúǖǘǚǜǔùêüńňㄚㄛㄜㄧㄨㄩㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ"
+  script_symbols:
+    name: 𝒶𝒜
+    type: SINGLE
+    keys: "𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵"
+  grease:
+    type: SINGLE
+    name: 希腊
+    keys: "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω"
+  rusa:
+    name: 俄语
+    type: SINGLE
+    keys: "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+  yinbiao:
+    type: SINGLE
+    name: "音标"
+    keys: ["a:", "ɔ:", "ɜː", "i:", "u:", "ʌ", "ɒ", "ə", "ɪ", "ʊ", "e", "æ", "eɪ", "aɪ", "ɔɪ", "ɪə", "eə", "ʊə", "əʊ", "aʊ", "p", "t", "k", "f", "θ", "s", "b", "d", "g", "v", "ð", "z", "ʃ", "h", "ts", "tʃ", "j", "tr", "ʒ", "r", "dz", "dʒ", "dr", "w", "m", "n", "ŋ", "l"]
+  symbollist:
+    type: SYMBOL
+    name: 扩符
+    keys: [ 符号: '/fh', 电脑: '/dn', 象棋: '/xq', 麻将: '/mj', 骰子: '/sz', 扑克: '/pk', 天气: '/tq', 音乐: '/yy', 八卦: '/bg', 易经: '/lssg', 天体: '/tt',  星座: '/xz',  星号: '/xh',  方块: '/fk',  几何: '/jh',  箭头: '/jt',  数学: '/sx',  上标: '/sb',  下标: '/xb',  单位: '/dw',  货币: '/hb',  拼音: '/py',  注音: '/zy',  假名: '/jm',  片假: '/pjm',  韩文: '/hw',  希腊: '/xl',  希大: '/xld', 罗马:   '/lm',  罗大:   '/lmd', 俄语:   '/ey',  俄大:   '/eyd', 表情:  '/bq',  一: '/1',  二: '/2',  三: '/3',  四: '/4',  五: '/5',  六: '/6',  七: '/7',  八: '/8',  九: '/9',  零: '/0',  十: '/10',  分数: '/fs',  标点: '/bd',  偏旁: '/pp',  竖标:  '/bdz'  ]
 
 #键盘布局
 preset_keyboards:
@@ -298,7 +365,7 @@ preset_keyboards:
       - {click: m, long_click: "-", width: 11}
       - {click: BackSpace, swipe_up: Escape, swipe_down: Delete, swipe_left: Clear, width: 15}
     #第四行
-      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Eleme, Hand_writing, Notes, Bing], width: 15}
+      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 15}
       - {click: ",", label: " ，️", swipe_up: "?", width: 12}
       - {click: space, hint: 中, key_hint_offset_x: 75, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 46}
       - {click: ".", label: " 。", swipe_up: "!", width: 12}
@@ -342,13 +409,13 @@ preset_keyboards:
       # - {width: 5}
     #第三行
       - {click: Shift_L, long_click: Shift_L, label_symbol: ' ', composing: delimiter, swipe_up: RepeatCommit, swipe_down: Tab, width: 14}
-      - {click: x, label: "Z   X", long_click: cut, swipe_left: z, swipe_up: select_cut, width: 18, key_text_size: 22}
-      - {click: c, label: "C   V", long_click: copy, swipe_up: select_copy, swipe_right: v, width: 18, key_text_size: 22}
+      - {click: x, label: "Z   X", long_click: cut, swipe_left: z, swipe_up: cut_all, width: 18, key_text_size: 22}
+      - {click: c, label: "C   V", long_click: copy, swipe_up: copy_all, swipe_right: v, width: 18, key_text_size: 22}
       - {click: b, label: "B   N", long_click: paste, swipe_up: clipboard_window, swipe_right: n, width: 18, key_text_size: 22}
       - {click: m, long_click: select_all, swipe_up: Page_Down, swipe_down: Page_Up, width: 16, key_symbol_offset_x: 21}
       - {click: BackSpace, swipe_up: Escape, swipe_down: Delete, swipe_left: Clear, width: 16}
     #第四行
-      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Eleme, Hand_writing, Notes, Bing], width: 14}
+      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 14}
       - {click: ",", label: " ，️", swipe_up: "?", width: 14, key_text_size: 18}
       - {click: space, width: 42}
       - {click: ".", label: " 。", swipe_up: "!", width: 14, key_text_size: 18}
@@ -369,7 +436,7 @@ preset_keyboards:
       - {click: 1, label: "分词", long_click: "]", composing: delimiter}
       - {click: 2, label: abc, long_click: "'"}
       - {click: 3, label: def, long_click: "`"}
-      - {click: Mode_switch0, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Eleme, Hand_writing, Notes, Bing], width: 17}
+      - {click: Mode_switch0, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 17}
     #第二行
       - {click: "-", long_click: "=", width: 17, key_symbol_offset_x: 20}
       - {click: 4, label: ghi, long_click: Home}
@@ -467,174 +534,6 @@ preset_keyboards:
       - {click: BackSpace, swipe_up: Escape, swipe_left: Clear, width: 25}
     name: "扩展符号"
 
-  zhongfu1:
-    author: "风花絮"
-    ascii_mode: 0
-    width: 10
-    height: 30
-    keys: 
-      - {click: "，"}
-      - {click: "。"}
-      - {click: "？"}
-      - {click: "！"}
-      - {click: "："}
-      - {click: "、"}
-      - {click: "……"}
-      - {click: "；"}
-      - {click: Keyboard_symbols, key_text_size: 17}
-      - {click: Keyboard_zhongfu2, key_text_size: 13}
-      - {click: "+"}
-      - {click: "-"}
-      - {click: "="}
-      - {click: "·"}
-      - {click: "｀"}
-      - {click: "#"}
-      - {click: "￥"}
-      - {click: "%"}
-      - {click: "ˉ"}
-      - {click: "——"}
-      - {click: "“”{Left}"}
-      - {click: "‘’{Left}"}
-      - {click: "ˆˇ{Left}"}
-      - {click: "（）{Left}"}
-      - {click: "〈〉{Left}"}
-      - {click: "‹›{Left}"}
-      - {click: "｛｝{Left}"}
-      - {click: "『』{Left}"}
-      - {click: "〖〗{Left}"}
-      - {click: "［］{Left}"}
-      - {click: "《》{Left}"}
-      - {click: "〔〕{Left}"}
-      - {click: "{}{Left}"}
-      - {click: "「」{Left}"}
-      - {click: "【】{Left}"}
-      - {click: "～"}
-      - {click: "@{Return}"}
-      - {click: "*{Return}"}
-      - {click: "&{Return}"}
-      - {click: "﹏"}
-      - {click: "﹋"}
-      - {click: "﹌"}
-      - {click: "︴"}
-      - {click: "㞢"}
-      - {click: "ᥬᩤ{Left}"}
-      - {click: "｜"}
-      - {click: "‖"}
-      - {click: "‐"}
-      - {click: "￣"}
-      - {click: "¯"}
-      - {click: Keyboard_default, width: 20}
-      - {click: Buttons_zhongfu, width: 20, __include: /preset_color_schemes/default/blue_key}
-      - {click: Keyboard_number, width: 20}
-      - {click: Buttons_yingfu, width: 20}
-      - {click: BackSpace, swipe_up: Escape, swipe_left: Clear, width: 20}
-    name: "中符1"
-  zhongfu2:
-    author: "风花絮"
-    ascii_mode: 0
-    width: 10
-    height: 30
-    keys:
-      - {click: "‰"}
-      - {click: "‱"}
-      - {click: "℉"}
-      - {click: "€"}
-      - {click: "£"}
-      - {click: "¢"}
-      - {click: "¤"}
-      - {click: "₩"}
-      - {click: Keyboard_symbols, key_text_size: 17}
-      - {click: Keyboard_zhongfu1, key_text_size: 13}
-      - {click: "―"}
-      - {click: "﹨"}
-      - {click: "˜"}
-      - {click: "﹍"}
-      - {click: "﹎"}
-      - {click: "〜"}
-      - {click: "〰"}
-      - {click: "°"}
-      - {click: "℃"}
-      - {click: "〝〞"}
-      - {click: "﹙﹚{Left}", key_text_size: 14}
-      - {click: "﹛﹜{Left}", key_text_size: 14}
-      - {click: "﹤﹥{Left}", key_text_size: 14}
-      - {click: "〘〙{Left}", key_text_size: 14}
-      - {click: "︵︶{Left}", key_text_size: 14}
-      - {click: "︷︸{Left}", key_text_size: 14}
-      - {click: "︿﹀{Left}", key_text_size: 14}
-      - {click: "︽︾{Left}", key_text_size: 14}
-      - {click: "︹︺{Left}", key_text_size: 14}
-      - {click: "︻︼{Left}", key_text_size: 14}
-      - {click: "﹃﹄{Left}", key_text_size: 14}
-      - {click: "〟"}
-      - {click: "〃"}
-      - {click: "﹐"}
-      - {click: "﹒"}
-      - {click: "﹑"}
-      - {click: "﹖"}
-      - {click: "﹗"}
-      - {click: "﹘"}
-      - {click: "﹔"}
-      - {click: "﹕"}
-      - {click: "﹪"}
-      - {click: "﹢"}
-      - {click: "﹣"}
-      - {click: "﹦"}
-      - {click: "﹫"}
-      - {click: "﹠"}
-      - {click: "﹩"}
-      - {click: "﹡"}
-      - {click: "﹟"}
-      - {click: Keyboard_default, width: 20}
-      - {click: Buttons_zhongfu, width: 20, __include: /preset_color_schemes/default/blue_key}
-      - {click: Keyboard_number, width: 20}
-      - {click: Buttons_yingfu, width: 20}
-      - {click: BackSpace, swipe_up: Escape, swipe_left: Clear, width: 20}
-    name: "中符2"
-
-  yingfu:
-    author: "风花絮"
-    ascii_mode: 1
-    width: 20
-    height: 30
-    keys:
-      - {click: ","}
-      - {click: "."}
-      - {click: "?"}
-      - {click: "!"}
-      - {click: Keyboard_symbols}
-      - {click: ":"}
-      - {click: "`"}
-      - {click: "~"}
-      - {click: ";"}
-      - {click: "…"}
-      - {click: "\""}
-      - {click: "'"}
-      - {click: "@"}
-      - {click: "*"}
-      - {click: "&"}
-      - {click: "^"}
-      - {click: "$"}
-      - {click: "%"}
-      - {click: "|"}
-      - {click: "#"}
-      - {click: "(){Left}", width: 10}
-      - {click: "<>{Left}", width: 10}
-      - {click: "{}{Left}", width: 10}
-      - {click: "[]{Left}", width: 10}
-      - {click: "/", width: 10}
-      - {click: "\\", width: 10}
-      - {click: "+", width: 10}
-      - {click: "-", width: 10}
-      - {click: "×", width: 10}
-      - {click: "÷", width: 10}
-      - {click: Keyboard_default}
-      - {click: Buttons_zhongfu}
-      - {click: Keyboard_number}
-      - {click: Buttons_yingfu, __include: /preset_color_schemes/default/blue_key}
-      - {click: BackSpace, swipe_up: Escape, swipe_left: Clear}
-    name: "英符"
-
 preset_keys:
 #安卓
   BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
@@ -646,7 +545,7 @@ preset_keys:
   EXPLORER: {label: 浏览器, send: EXPLORER}
   MUSIC: {label: 音乐, send: MUSIC}
   POWER: {label: 电源, send: POWER}
-  SEARCH: {label: 搜寻, send: Find}
+  SEARCH: {label: 搜寻, send: SEARCH}
   SLEEP: {label: 休眠, send: SLEEP}
   VOICE_ASSIST: {label: 语音, functional: true, send: VOICE_ASSIST}
   VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
@@ -679,14 +578,14 @@ preset_keys:
   cut: {label: "✁", functional: false, send: Control+x}
   copy: {label: "❐", functional: false, send: Control+c}
   paste: {label: "⎗", functional: false, send: Control+v}
+  cut_all: {label: "☑✁", text: "{Control+a}{Control+x}"}
+  copy_all: {label: "☑❐", text: "{Control+a}{Control+c}"}
   redo: {label: "\uE02F", functional: false, send: Control+Shift+z} #>=Android 6.0
   undo: {label: "\uE02E", functional: false, send: Control+z} #>=Android 6.0
   Tab: {label: Tab, repeatable: false, text: '	'}
-  Insert: {label: ⌤, send: Insert}
-  Delete: {label: ⌦, send: Delete, functional: false}
+  Insert: {label: "⌤", send: Insert}
+  Delete: {label: "⌦", send: Delete, functional: false}
   delimiter: {label: "'", text: "'"}
-  select_cut: {label: ☑✁, text: '{Control+a}{cut}'}
-  select_copy: {label: ☑❐, text: '{Control+a}{copy}'}
   Forward: {label: 前移, send: Control+j}
   Backward: {label: 后移, send: Control+k}
   Pin: {label: 置顶, send: Control+p}
@@ -714,18 +613,26 @@ preset_keys:
   Keyboard_next: {label: 后退, functional: false, send: Eisu_toggle, select: .next}
   Keyboard_last: {label: 返回, functional: false, send: Eisu_toggle, select: .last}
   Keyboard_last_lock: {label: "\uE073", send: Eisu_toggle, select: .last_lock}
-  menu_keyboard: {label: "\uE03E", send: function, command: menu_keyboard}
-  clipboard_window: {label: "\uE099", send: function, command: "clipboard_window"}
+  liquid_keyboard_exit: {label: "   \uE030   ", send: FUNCTION, command: liquid_keyboard, option: "-1"}
+  liquid_keyboard_ascii: {label: 英符, send: FUNCTION, command: liquid_keyboard, option: "英文"}
+  liquid_keyboard_tabs: {label: "  \uE12f  ", send: FUNCTION, command: liquid_keyboard, option: "更多"}
+  liquid_keyboard_symbollist: {label: 扩符, send: FUNCTION, command: liquid_keyboard, option: "扩符"}
+  liquid_keyboard_backspace: {label: "   \uE040   ", repeatable: true, functional: true, slide_delete: false, send: BackSpace}
+  liquid_keyboard_return: {label: "   \uE034   ", functional: false, send: Return} 
+  liquid_keyboard_clipboard: {label: "   \uE099   ", send: FUNCTION, command: "clipboard_window", option: '0'}
+  menu_keyboard: {label: "\uE03E", send: FUNCTION, command: menu_keyboard}
+  clipboard_window: {label: "\uE099", send: FUNCTION, command: "clipboard_window", option: '0'} #0剪贴板
+  favorites: {label: "\uE099", send: FUNCTION, command: "clipboard_window", option: '1'} #1收藏夹
 
 #rime状态
-  Mode_switch0: {toggle: ascii_mode, functional: true, send: Mode_switch, states: [123, 中]}
-  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [中, En]}
-  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [半角, 全角]}
-  Henkan: {toggle: simplification, send: Mode_switch, states: [汉字, 漢字]}
-  Charset_switch: {toggle: charset_filter, send: Mode_switch, states: [常用, 扩展]}
-  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [。，, ．，]}
-  orientation_switch: {toggle: _linear, send: Mode_switch, states: [纵向, 横向]}
-  Spell_switch: {toggle: 86wubi_spelling, send: Mode_switch, states: [拆, 扌斥]}
+  Mode_switch0: {toggle: ascii_mode, functional: true, send: SWITCH_CHARSET, states: [123, 中]}
+  Mode_switch: {toggle: ascii_mode, functional: false, send: SWITCH_CHARSET, states: [中, En]}
+  Zenkaku_Hankaku: {toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角]}
+  Henkan: {toggle: simplification, send: SWITCH_CHARSET, states: [汉字, 漢字]}
+  Charset_switch: {toggle: charset_filter, send: SWITCH_CHARSET, states: [常用, 扩展]}
+  Punct_switch: {toggle: ascii_punct, send: SWITCH_CHARSET, states: [。，, ．，]}
+  orientation_switch: {toggle: _linear, send: SWITCH_CHARSET, states: [纵向, 横向]}
+  Spell_switch: {toggle: 86wubi_spelling, send: SWITCH_CHARSET, states: [拆, 扌斥]}
 
 #trime设置
   IME_switch: {label: "\uE101", send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
@@ -735,56 +642,47 @@ preset_keys:
   Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
   Theme_settings: {label: "\uE131", send: SETTINGS, option: "theme"}
   Color_switch: {label: "\uE136", functional: false, send: PROG_RED}
-  Help: {label: "\uE129", send: Help}
+  Help: {label: "\uE129", send: HELP}
   Info: {label: "\uE3c6", send: INFO} #关于
-  Menu: {label: "\uE129", functional: false, send: Menu}
+  Menu: {label: "\uE129", functional: false, send: MENU}
   Settings: {label: "\uE120", functional: false, send: SETTINGS}
-  Deploy: {label: "\uE18B", send: function, command: apply, option: "DEPLOY"}
-  Sync: {label: 同步, send: function, command: apply, option: "SYNC_USER_DATA"}
-  UpdateConfig: {label: "\uE196", send: function, command: apply, option: "UPDATE_CONFIG"}
-  set_color_default: {label: 标配, send: function, command: set_color_scheme, option: "default"}
-  set_theme: {label: "\uE189", send: function, command: set_theme, option: ""} #空参数刷新主题
+  Deploy: {label: "\uE18B", send: FUNCTION, command: apply, option: "DEPLOY"}
+  Sync: {label: 同步, send: FUNCTION, command: apply, option: "SYNC_USER_DATA"}
+  UpdateConfig: {label: "\uE196", send: FUNCTION, command: apply, option: "UPDATE_CONFIG"}
+  # set_color_default: {label: 标配, send: FUNCTION, command: set_color_scheme, option: "default"}
+  set_theme: {label: "\uE189", send: FUNCTION, command: set_theme, option: ""} #空参数刷新主题
   pinyin_scheme: {label: "\uE107", send: Shift+Control+6}  #一键切拼音方案
   wubi86_scheme: {label: "\uE109", send: Shift+Control+7}  #一键切五笔方案
   wubi86_double_key_scheme: {label: "\uE10D", send: Shift+Control+8}  #一键切双键五笔方案
   pinyin_jiugong_scheme: {label: "\uE10E", send: Shift+Control+9}  #一键切九宫拼音方案
 
 #trime命令
-  ChineseDate: {label: '农历', send: function, command: date, option: 'zh_CN@calendar=chinese'} #农历等日期（>=Android 7.0）：date 语言@calendar=历法 格式。具体参见https://developer.android.com/reference/android/icu/util/Calendar.html
-  Date: {label: 日期, send: function, command: date, option: "yyyy年MM月dd日"}
-  Time: {label: 時間, send: function, command: date, option: "HH:mm"}
-  TrimeApp: {label: "\uE03E", send: function, command: run, option: "com.osfans.trime"} #運行程序: run 包名
-  TrimeCmp: {label: 組件, send: function, command: run, option: "com.osfans.trime/.ui.main.PrefMainActivity"} #運行程序指定組件: run 包名/組件名
-  TrimeWiki: {command: run, label: "\uE11B", option: "https://github.com/osfans/trime/wiki/Theme-Configuration-(New)", send: function} #trime详解
-  Homepage: {label: "\uE5F3", send: function, command: run, option: "https://github.com/osfans/trime"} #查看主页
-  Wiki: {label: 維基, send: function, command: run, option: "https://zh.wikipedia.org/wiki/%s"} #搜索網頁: %s或者%1$s爲當前字符
-  Google: {label: 谷歌, send: function, command: run, option: "https://www.google.com/search?q=%s"} #搜索網頁: %s或者%1$s爲當前字符
-  MoeDict: {label: 萌典, send: function, command: run, option: "https://www.moedict.tw/%3$s"} #搜索網頁: %3$s爲光標前字符
-  Baidu: {label: 百度搜索, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"} #搜索網頁: %4s爲光標前所有字符
-  Zdic: {label: 漢典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索網頁: %s或者%1$s爲當前字符
-  Zdic2: {label: 漢典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
-  WebSearch: {label: 搜索網頁, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
-  Nightly: {label: "\uE5F3", send: function, command: run, option: "https://github.com/osfans/trime/releases/tag/nightly"} #夜版
-  Netdisk: {label: "\uE05f", send: function, command: run, option: "http://trime365.ysepan.com"} #网盘
-  Bing: {label: "\uE1A2", send: function, command: run, option: "http://cn.bing.com/search?q=%s"} 
-  Hand_writing: {label: "\uE06A", send: function, command: run, option: "https://chinesehandwritinggpt.com/zhs"} #必应
-  MT: {label: "\uE67B", send: function, command: run, option: "bin.mt.plus.canary"} #MT管理器
-  File_explorer: {label: "\uE67C", send: function, command: run, option: "com.android.fileexplorer"}
-  Notes: {label: "\uE1A7", send: function, command: run, option: "com.miui.notes"} #笔记
-  Weixin: {label: "\uE5FF", send: function, command: run, option: "com.tencent.mm"} #微信
-  Alipay: {label: "\uE63F", send: function, command: run, option: "com.eg.android.AlipayGphone"}
-  Jingdong: {label: "\uE653", send: function, command: run, option: "com.jd.waimai"} #京东
-  Meituan: {label: "\uE641", send: function, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
-  Eleme: {label: "\uE642", send: function, command: run, option: "me.ele"} #饿了么
-  # Meituan: {label: 树, command: "intent:#Intent;action=android.intent.action.VIEW;data=file:///storage/emulated/0/rime/wubi86.dict.yaml;type=text/plain;end"}
-
-
-#符号
-  Keyboard_zhongfu1: {label: "上页", functional: true, send: Eisu_toggle, select: zhongfu1}
-  Keyboard_zhongfu2: {label: "下页", functional: true, send: Eisu_toggle, select: zhongfu2, key_text_size: "14"}
-  Keyboard_yingfu: {label: "\uE019", functional: false, send: Eisu_toggle, select: yingfu, key_text_size: "14"}
-  Buttons_zhongfu: {label: "中符", functional: false, send: Eisu_toggle, select: zhongfu1, key_text_size: "14"}
-  Buttons_yingfu: {label: "英符", functional: false, send: Eisu_toggle, select: yingfu, key_text_size: "14"}
+  ChineseDate: {label: '农历', send: FUNCTION, command: date, option: 'zh_CN@calendar=chinese'}
+  Date: {label: 日期, send: FUNCTION, command: date, option: "yyyy年MM月dd日"}
+  Time: {label: 時間, send: FUNCTION, command: date, option: "HH:mm"}
+  TrimeApp: {label: "\uE03E", send: FUNCTION, command: run, option: "com.osfans.trime"} #運行程序: run 包名
+  TrimeCmp: {label: 組件, send: FUNCTION, command: run, option: "com.osfans.trime/.ui.main.PrefMainActivity"} #運行程序指定組件: run 包名/組件名
+  TrimeWiki: {command: run, label: "\uE11B", option: "https://github.com/osfans/trime/wiki/Theme-Configuration-(New)", send: FUNCTION} #trime详解
+  Homepage: {label: "\uE5F3", send: FUNCTION, command: run, option: "https://github.com/osfans/trime"} #查看主页
+  Wiki: {label: 維基, send: FUNCTION, command: run, option: "https://zh.wikipedia.org/wiki/%s"} #搜索網頁: %s或者%1$s爲當前字符
+  Google: {label: 谷歌, send: FUNCTION, command: run, option: "https://www.google.com/search?q=%s"} #搜索網頁: %s或者%1$s爲當前字符
+  MoeDict: {label: 萌典, send: FUNCTION, command: run, option: "https://www.moedict.tw/%3$s"} #搜索網頁: %3$s爲光標前字符
+  Baidu: {label: 百度搜索, send: FUNCTION, command: run, option: "https://www.baidu.com/s?wd=%4$s"} #搜索網頁: %4s爲光標前所有字符
+  Zdic: {label: 漢典, send: FUNCTION, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索網頁: %s或者%1$s爲當前字符
+  Zdic2: {label: 漢典, send: FUNCTION, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索網頁: %2$s爲當前輸入的編碼
+  WebSearch: {label: 搜索網頁, send: FUNCTION, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，參考安卓的intent文檔：https://developer.android.com/reference/android/content/Intent.html
+  Nightly: {label: "\uE5F3", send: FUNCTION, command: run, option: "https://github.com/osfans/trime/releases/tag/nightly"} #夜版
+  Netdisk: {label: "\uE05f", send: FUNCTION, command: run, option: "http://trime365.ysepan.com"} #网盘
+  Bing: {label: "\uE1A2", send: FUNCTION, command: run, option: "http://cn.bing.com/search?q=%s"} 
+  Hand_writing: {label: "\uE06A", send: FUNCTION, command: run, option: "https://chinesehandwritinggpt.com/zhs"} #必应
+  MT: {label: "\uE67B", send: FUNCTION, command: run, option: "bin.mt.plus"} #MT管理器
+  File_explorer: {label: "\uE67C", send: FUNCTION, command: run, option: "com.android.fileexplorer"}
+  Notes: {label: "\uE1A7", send: FUNCTION, command: run, option: "com.miui.notes"} #笔记
+  Weixin: {label: "\uE5FF", send: FUNCTION, command: run, option: "com.tencent.mm"} #微信
+  Alipay: {label: "\uE63F", send: FUNCTION, command: run, option: "com.eg.android.AlipayGphone"}
+  Jingdong: {label: "\uE653", send: FUNCTION, command: run, option: "com.jd.waimai"} #京东
+  Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
+  Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} #饿了么
 
 #扩展符号
   符号: {text: '{Escape}/fh', label: 符号, functional: false}
