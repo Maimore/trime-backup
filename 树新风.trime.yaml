@@ -125,26 +125,26 @@ preedit:
 #悬浮窗
 window:
   insets: #窗口内边距
-    vertical: 4 #纵向（整数）
-    horizontal: 5 #横向（整数）
-  item_padding: #候选项内边距
     vertical: 5 #纵向（整数）
+    horizontal: 6 #横向（整数）
+  item_padding: #候选项内边距
+    vertical: 7 #纵向（整数）
     horizontal: 11 #横向（整数）
   foreground: #前景样式
     label_font_size: 13 #序号字体大小（浮点）
     text_font_size: 20 #文字字体大小（浮点）
     comment_font_size: 10 #注释字体大小（浮点）
-  # min_width: 0     #最小宽度（整数）
-  corner_radius: 13 #圆角半径（浮点）
-  alpha: 0.95 #透明度（0-1，浮点）
+  min_width: 20 #最小宽度（整数）
+  corner_radius: 17 #圆角半径（浮点）
+  alpha: 0.85 #透明度（0-1，浮点）
   border: 1 #边框宽度（整数）
-  shadow: 3.3 #阴影半径（浮点）
+  shadow: 0 #阴影半径（浮点）
 
 #工具栏
 tool_bar:
-  button_spacing: 10 #按钮间距
+  button_spacing: 14 #按钮间距
   button_font: [iconfont.ttf] #按钮字体
-  back_style: "\uE0A7" #返回按钮样式
+  back_style: "ic@menu-left" #返回按钮样式
 #左侧固定主按钮
   primary_button: 
     background:  #背景样式设置
@@ -153,14 +153,14 @@ tool_bar:
       normal: *透明 #正常状态背景颜色
       highlight: *浅灰 #高亮状态背景色
       vertical_inset: 6 #垂直方向内缩量
-      horizontal_inset: 12 #水平方向内缩量
+      horizontal_inset: 10 #水平方向内缩量
     foreground:  #前景内容设置
       style: "" #（内置图标以ic@开头）前景样式为空，将显示为 action 的 label
       # normal: *黑 #正常状态前景色
       # highlight: *黑40% #高亮状态前景色
-      padding: 7 #前景内容与背景边界的内边距
-      font_size: 23 #字体尺寸
-    size: [55, 40] #视图组件整体宽高
+      # padding: 0 #前景内容与背景边界的内边距
+      font_size: 24 #字体尺寸
+    size: [53, 40] #视图组件整体宽高
     action: menu_keyboard #按钮点击事件
     long_press_action: Settings #按钮长按事件
 #隐藏键盘
@@ -170,11 +170,12 @@ tool_bar:
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
+      vertical_inset: 6 #垂直方向内缩量
       horizontal_inset: 8 #水平方向内缩量
     foreground:
-      padding: 1
-      font_size: 33
-    size: [46, 40]
+      style: "ic@menu-down"
+      font_size: 17
+    size: [43, 40]
     action: Hide
 #符号&扩展符号
   yingfu: &yingfu
@@ -184,10 +185,8 @@ tool_bar:
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
-      style: "\uE018"
-      padding: 9
-      font_size: 20
-    size: [43, 40]
+      style: ""
+      font_size: 21
     action: liquid_keyboard_ascii
     long_press_action: Keyboard_symbols
 #剪贴板
@@ -198,22 +197,20 @@ tool_bar:
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
-      padding: 9
-      font_size: 20
-    size: [43, 40]
+      style: ""
+      font_size: 21
     action: clipboard_window
     long_press_action: favorites
 #恢复
   redo: &redo
-    size: [44, 40]
     background:
       type: {__include: /tool_bar/primary_button/background/type} #跟随主按钮背景高亮形状
       corner_radius: {__include: /tool_bar/primary_button/background/corner_radius} #跟随主按钮背景圆角
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
-      padding: 9
-      font_size: 19
+      style: ""
+      font_size: 20
     action: redo
 #撤消
   undo: &undo
@@ -223,9 +220,8 @@ tool_bar:
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
-      padding: 9
-      font_size: 19
-    size: [44, 40]
+      style: ""
+      font_size: 20
     action: undo
 #键盘布局&方案菜单
   layout: &layout
@@ -235,9 +231,8 @@ tool_bar:
       highlight: {__include: /tool_bar/primary_button/background/highlight} #跟随主按钮背景高亮
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
-      padding: 8
-      font_size: 22
-    size: [43, 40]
+      style: ""
+      font_size: 23
     action: Keyboard_layout
     long_press_action: Menu
 #中/英切换
@@ -249,9 +244,7 @@ tool_bar:
       vertical_inset: {__include: /tool_bar/primary_button/background/vertical_inset}#垂直内缩
     foreground:
       style: "\uE076"
-      padding: 9
-      font_size: 22
-    size: [44, 40]
+      font_size: 23
     action: Keyboard_ascii
 #右侧按钮列表（从右向左排列）
   buttons: [*hide, *yingfu, *clip, *redo, *undo, *layout, *toggle]
@@ -365,7 +358,7 @@ preset_keyboards:
       - {click: m, long_click: "-", width: 11}
       - {click: BackSpace, swipe_up: Escape, swipe_down: Delete, swipe_left: Clear, width: 15}
     #第四行
-      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 15}
+      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, huibao, Taobao, Hand_writing, Notes, Bing], width: 15}
       - {click: ",", label: " ，️", swipe_up: "?", width: 12}
       - {click: space, hint: 中, key_hint_offset_x: 75, swipe_up: Up, swipe_down: Down, swipe_left: Left, swipe_right: Right, width: 46}
       - {click: ".", label: " 。", swipe_up: "!", width: 12}
@@ -415,7 +408,7 @@ preset_keyboards:
       - {click: m, long_click: select_all, swipe_up: Page_Down, swipe_down: Page_Up, width: 16, key_symbol_offset_x: 21}
       - {click: BackSpace, swipe_up: Escape, swipe_down: Delete, swipe_left: Clear, width: 16}
     #第四行
-      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 14}
+      - {click: Keyboard_number, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, huibao, Taobao, Hand_writing, Notes, Bing], width: 14}
       - {click: ",", label: " ，️", swipe_up: "?", width: 14, key_text_size: 18}
       - {click: space, width: 42}
       - {click: ".", label: " 。", swipe_up: "!", width: 14, key_text_size: 18}
@@ -436,7 +429,7 @@ preset_keyboards:
       - {click: 1, label: "分词", long_click: "]", composing: delimiter}
       - {click: 2, label: abc, long_click: "'"}
       - {click: 3, label: def, long_click: "`"}
-      - {click: Mode_switch0, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, Meituan, Taobao, Hand_writing, Notes, Bing], width: 17}
+      - {click: Mode_switch0, popup: [CALCULATOR, Netdisk, TrimeWiki, Nightly, TrimeApp, MT, File_explorer, Weixin, Alipay, Jingdong, huibao, Taobao, Hand_writing, Notes, Bing], width: 17}
     #第二行
       - {click: "-", long_click: "=", width: 17, key_symbol_offset_x: 20}
       - {click: 4, label: ghi, long_click: Home}
@@ -614,7 +607,7 @@ preset_keys:
   Keyboard_last: {label: 返回, functional: false, send: Eisu_toggle, select: .last}
   Keyboard_last_lock: {label: "\uE073", send: Eisu_toggle, select: .last_lock}
   liquid_keyboard_exit: {label: "   \uE030   ", send: FUNCTION, command: liquid_keyboard, option: "-1"}
-  liquid_keyboard_ascii: {label: 英符, send: FUNCTION, command: liquid_keyboard, option: "英文"}
+  liquid_keyboard_ascii: {label: "\uE018", send: FUNCTION, command: liquid_keyboard, option: "英文"}
   liquid_keyboard_tabs: {label: "  \uE12f  ", send: FUNCTION, command: liquid_keyboard, option: "更多"}
   liquid_keyboard_symbollist: {label: 扩符, send: FUNCTION, command: liquid_keyboard, option: "扩符"}
   liquid_keyboard_backspace: {label: "   \uE040   ", repeatable: true, functional: true, slide_delete: false, send: BackSpace}
@@ -681,9 +674,10 @@ preset_keys:
   Weixin: {label: "\uE5FF", send: FUNCTION, command: run, option: "com.tencent.mm"} #微信
   Alipay: {label: "\uE63F", send: FUNCTION, command: run, option: "com.eg.android.AlipayGphone"}
   Jingdong: {label: "\uE653", send: FUNCTION, command: run, option: "com.jd.waimai"} #京东
-  Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
-  Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} #饿了么
-
+  # Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
+  Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} 
+  huibao: {label: "\uE05A", send: FUNCTION, command: run, option: "https://www.workbuddy.link/p/gYgsGSw0msn3shelyRu0Y1?fromMpSh=1"}
+  
 #扩展符号
   符号: {text: '{Escape}/fh', label: 符号, functional: false}
   电脑: {text: '{Escape}/dn', label: 电脑, functional: false}
