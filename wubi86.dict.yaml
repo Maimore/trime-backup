@@ -9844,8 +9844,8 @@ encoder:         #造词规则
 古人	dgww	124
 感人	dgww	183
 感化	dgwx	222
-石化	dgwx	689
-硬化	dgwx	451
+石化	dgwx	222
+硬化	dgwx	222
 古今	dgwy	423
 威信	dgwy	269
 感念	dgwy	153
@@ -10001,7 +10001,7 @@ encoder:         #造词规则
 夏侯	dhwn	136
 在任	dhwt	298
 在位	dhwu	195
-存货	dhwx	279
+存货	dhwx	222
 存储	dhwy	638
 艳红	dhxa	197
 存续	dhxf	154
@@ -13225,6 +13225,7 @@ encoder:         #造词规则
 雨伞	fgwu	274
 十分	fgwv	794
 坏人	fgww	280
+干货	fgwx	225
 无与伦比	fgwx	110
 地球仪	fgwy	110
 干练	fgxa	171
@@ -13446,7 +13447,7 @@ encoder:         #造词规则
 超人	fhww	182
 起价	fhww	182
 走人	fhww	182
-真货	fhwx	104
+真货	fhwx	204
 真伪	fhwy	320
 赶集	fhwy	379
 走红	fhxa	326
@@ -22622,10 +22623,9 @@ encoder:         #造词规则
 昧	jfiy	11
 蛙泳	jfiy	733
 蠕虫	jfjh	251
-时日	jfjj	280
-里昂	jfjq	257
+时日	jfjj	100
 野果	jfjs	568
-蟛	jfke	11
+蟛	jfke	10
 野味	jfkf	186
 显示器	jfkk	110
 野史	jfkq	108
@@ -22912,9 +22912,7 @@ encoder:         #造词规则
 昌盛	jjdn	226
 日月	jjee	477
 日用	jjet	429
-日趋	jjfh	388
 日晒雨淋	jjfi	110
-日韩	jjfj	147
 日志	jjfn	722
 日元	jjfq	159
 昌都	jjft	135
@@ -24089,7 +24087,6 @@ encoder:         #造词规则
 嘻嘻	kfkf	405
 咭	kfkg	11
 喷嘴	kfkh	166
-叽里咕噜	kfkk	110
 嘻	kfkk	11
 哮喘	kfkm	367
 唉声叹气	kfkr	110
@@ -24680,6 +24677,7 @@ encoder:         #造词规则
 喝酒	kjis	503
 唱	kjjg	11
 噼里啪啦	kjkk	110
+叽里咕噜	kjkk	110
 呻吟	kjkw	314
 唱曲	kjma	393
 喁	kjmy	11
@@ -45538,7 +45536,6 @@ encoder:         #造词规则
 交出	uqbm	278
 交叠	uqcc	106
 交通	uqce	837
-效能	uqce	473
 奖台	uqck	188
 交欢	uqcq	726
 效验	uqcw	315
@@ -46175,7 +46172,7 @@ encoder:         #造词规则
 疯人院	uwbp	110
 疮	uwbv	11
 准予	uwcb	330
-准能	uwce	415
+准能	uwce	300
 立体感	uwdg	110
 闪存	uwdh	524
 冷面	uwdm	164
@@ -46251,6 +46248,7 @@ encoder:         #造词规则
 将信将疑	uwux	110
 冷门	uwuy	225
 阀门	uwuy	333
+闪退	uwve	333
 痤	uwwf	11
 阀值	uwwf	213
 痊愈	uwwg	349
