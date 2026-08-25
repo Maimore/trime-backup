@@ -121,7 +121,7 @@ preedit:
   top_end_radius: 5 #末上端圆角（浮点）
   foreground: #前景样式
     font_size: 16 #预编辑字体大小（浮点）
- 
+
 #悬浮窗
 window:
   insets: #窗口内边距
@@ -575,7 +575,7 @@ preset_keys:
   copy_all: {label: "☑❐", text: "{Control+a}{Control+c}"}
   redo: {label: "\uE02F", functional: false, send: Control+Shift+z} #>=Android 6.0
   undo: {label: "\uE02E", functional: false, send: Control+z} #>=Android 6.0
-  Tab: {label: Tab, repeatable: false, text: '	'}
+  Tab: {label: Tab, text: '	'}
   Insert: {label: "⌤", send: Insert}
   Delete: {label: "⌦", send: Delete, functional: false}
   delimiter: {label: "'", text: "'"}
@@ -616,6 +616,8 @@ preset_keys:
   menu_keyboard: {label: "\uE03E", send: FUNCTION, command: menu_keyboard}
   clipboard_window: {label: "\uE099", send: FUNCTION, command: "clipboard_window", option: '0'} #0剪贴板
   favorites: {label: "\uE099", send: FUNCTION, command: "clipboard_window", option: '1'} #1收藏夹
+  hide_key_symbol: {label: 上符开关, send: FUNCTION, command: switch_hide_key_symbol}
+  hide_key_hint: {label: 下符开关, send: FUNCTION, command: switch_hide_key_hint}
 
 #rime状态
   Mode_switch0: {toggle: ascii_mode, functional: true, send: SWITCH_CHARSET, states: [123, 中]}
@@ -624,9 +626,9 @@ preset_keys:
   Henkan: {toggle: simplification, send: SWITCH_CHARSET, states: [汉字, 漢字]}
   Charset_switch: {toggle: charset_filter, send: SWITCH_CHARSET, states: [常用, 扩展]}
   Punct_switch: {toggle: ascii_punct, send: SWITCH_CHARSET, states: [。，, ．，]}
-  orientation_switch: {toggle: _linear, send: SWITCH_CHARSET, states: [纵向, 横向]}
+  Orientation_switch: {toggle: _linear, send: SWITCH_CHARSET, states: [纵向, 横向]}
   Spell_switch: {toggle: 86wubi_spelling, send: SWITCH_CHARSET, states: [拆, 扌斥]}
-
+ 
 #trime设置
   IME_switch: {label: "\uE101", send: LANGUAGE_SWITCH} #彈出對話框選擇輸入法
   IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切換到上一輸入法
@@ -676,7 +678,7 @@ preset_keys:
   Jingdong: {label: "\uE653", send: FUNCTION, command: run, option: "com.jd.waimai"} #京东
   # Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
   Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} 
-  huibao: {label: "\uE05A", send: FUNCTION, command: run, option: "https://www.workbuddy.link/p/t5o9uJeVVKJHxnXObu6LS9?fromMpSh=1"}
+  huibao: {label: "\uE05A", send: FUNCTION, command: run, option: "https://www.workbuddy.link/p/JIqfBSJ0vM9JRRNWnME4xt"}
   
 #扩展符号
   符号: {text: '{Escape}/fh', label: 符号, functional: false}
