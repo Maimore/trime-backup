@@ -678,7 +678,7 @@ preset_keys:
   Jingdong: {label: "\uE653", send: FUNCTION, command: run, option: "com.jd.waimai"} #京东
   # Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
   Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} 
-  huibao: {label: "\uE05A", send: FUNCTION, command: run, option: "https://www.workbuddy.link/p/JIqfBSJ0vM9JRRNWnME4xt"}
+  huibao: {label: "\uE05A", send: FUNCTION, command: run, option: "https://workbuddy.link/p/B4eLh46YdklNEK6JSZ2dn7"}
   
 #扩展符号
   符号: {text: '{Escape}/fh', label: 符号, functional: false}

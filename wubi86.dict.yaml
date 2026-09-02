@@ -9461,7 +9461,6 @@ encoder:         #造词规则
 大肠杆菌	desa	110
 有权	desc	481
 胡椒	desh	347
-胡桃	desi	274
 有机	desm	567
 胡杨	desn	125
 有梦	dess	276
@@ -10882,7 +10881,7 @@ encoder:         #造词规则
 大失所望	drry	110
 原本	drsg	586
 布拉格	drst	110
-原样	drsu	151
+原样	drsu	351
 百年树人	drsw	110
 厉兵秣马	drtc	110
 原籍	drtd	149
@@ -19625,14 +19624,12 @@ encoder:         #造词规则
 污	ifnn	11
 潜心	ifny	243
 法家	ifpe	748
-活动家	ifpe	110
 法定	ifpg	547
 法宝	ifpg	383
 渤	ifpl	11
 法官	ifpn	411
-汗衫	ifpu	633
-法案	ifpv	402
-法象	ifqj	59
+汗衫	ifpu	133
+法象	ifqj	159
 沅	ifqn	11
 潜质	ifrf	259
 污损	ifrk	476
@@ -44132,7 +44129,7 @@ encoder:         #造词规则
 着迷	udop	315
 头炮	udoq	264
 关灯	udos	521
-养料	udou	620
+养料	udou	120
 凑数	udov	296
 阉割	udpd	786
 养家	udpe	213
@@ -44147,7 +44144,7 @@ encoder:         #造词规则
 减灾	udpo	267
 差额	udpt	280
 送客	udpt	139
-着实	udpu	149
+着实	udpu	249
 判案	udpv	401
 关窗	udpw	606
 送礼	udpy	402
@@ -44494,15 +44491,14 @@ encoder:         #造词规则
 半壁	ufnk	524
 凌迟	ufny	176
 壮士断腕	ufoe	110
-装料	ufou	222
+装料	ufou	122
 半数	ufov	387
 阖家	ufpe	615
 闭塞	ufpf	181
 闺蜜	ufpn	162
-壮实	ufpu	160
+壮实	ufpu	249
 凌空	ufpw	277
 半空	ufpw	267
-闺怨	ufqb	159
 半角	ufqe	592
 北朝鲜	ufqg	110
 闭锁	ufqi	792
@@ -48308,7 +48304,7 @@ encoder:         #造词规则
 登上	wghh	441
 便餐	wghq	199
 合眼	wghv	111
-倒灌	wgia	357
+倒灌	wgia	157
 便池	wgib	263
 佥	wgif	11
 合法	wgif	732
@@ -48473,8 +48469,6 @@ encoder:         #造词规则
 便条	wgts	146
 合乎	wgtu	267
 便签	wgtw	667
-登第	wgtx	342
-全篇	wgty	106
 合并	wgua	310
 债券	wgud	458
 便装	wguf	783
@@ -48809,7 +48803,6 @@ encoder:         #造词规则
 保底	wkyq	123
 命中率	wkyx	110
 俄罗斯	wlad	110
-伽蓝	wlaj	514
 八国联军	wlbp	110
 伽马	wlcn	509
 人困马乏	wlct	110
@@ -48819,7 +48812,7 @@ encoder:         #造词规则
 侵略者	wlft	110
 欲罢不能	wlgc	110
 偎	wlge	11
-儇	wlge	11
+儇	wlge	10
 佛罗里达	wljd	110
 伽	wlkg	11
 倒胃口	wlkk	110
