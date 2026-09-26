@@ -5717,6 +5717,7 @@ encoder:         #造词规则
 英语	amyg	706
 跫	amyh	11
 蛩	amyj	11
+恐高	amym	211
 恐	amyn	11
 英豪	amyp	269
 銎	amyq	11
@@ -9357,14 +9358,13 @@ encoder:         #造词规则
 大纲	ddxm	421
 大约	ddxq	573
 磕磕绊绊	ddxx	110
-大统	ddxy	443
+大统	ddxy	113
 大度	ddya	251
 大亨	ddyb	321
 左右为难	ddyc	110
 大庆	ddyd	404
 大衣	ddye	453
 大计	ddyf	221
-套语	ddyg	179
 戊戌变法	ddyi	110
 大课	ddyj	403
 大为	ddyl	396
@@ -9865,10 +9865,10 @@ encoder:         #造词规则
 感谢	dgyt	677
 硬说	dgyu	117
 硬朗	dgyv	188
-硬座	dgyw	146
+硬座	dgyw	646
 古文	dgyy	286
-破戒	dhaa	682
-破鞋	dhaf	660
+破戒	dhaa	182
+破鞋	dhaf	160
 有目共睹	dhah	110
 在世	dhan	296
 破获	dhaq	251
@@ -9880,8 +9880,7 @@ encoder:         #造词规则
 在职	dhbk	468
 破阵	dhbl	517
 破防	dhby	423
-慧能	dhce	524
-丰台	dhck	600
+丰台	dhck	100
 破	dhcy	11
 酆	dhdb	10
 丰硕	dhdd	238
@@ -10015,9 +10014,9 @@ encoder:         #造词规则
 破庙	dhym	143
 在望	dhyn	237
 存亡	dhyn	187
-存底	dhyq	234
+存底	dhyq	134
 存放	dhyt	350
-在座	dhyw	269
+在座	dhyw	169
 达沃斯	diad	110
 大江东去	diaf	110
 磲	dias	10
@@ -10026,7 +10025,7 @@ encoder:         #造词规则
 耗能	dice	252
 耙	dicn	11
 有没有	dide	112
-耨	didf	11
+耨	didf	10
 石沉大海	didi	110
 耕耘	didi	294
 原汁原味	didk	110
@@ -12910,8 +12909,7 @@ encoder:         #造词规则
 十有八九	fdwv	110
 需经	fdxc	210
 垅	fdxn	11
-城乡	fdxt	482
-城郭	fdyb	699
+城乡	fdxt	112
 震颤	fdyl	152
 城市	fdym	858
 场面话	fdyt	110
@@ -13458,7 +13456,7 @@ encoder:         #造词规则
 走高	fhym	350
 超市	fhym	606
 走遍	fhyn	274
-真迹	fhyo	654
+真迹	fhyo	154
 趣谈	fhyo	218
 起义	fhyq	287
 起诉	fhyr	428
@@ -19038,7 +19036,6 @@ encoder:         #造词规则
 眼前	hvue	566
 眼病	hvug	162
 眼部	hvuk	359
-眼疾	hvut	788
 眼袋	hvwa	216
 眼红	hvxa	150
 眼线	hvxg	205
@@ -22385,6 +22382,7 @@ encoder:         #造词规则
 电磁波	jdih	110
 晨光	jdiq	250
 蝴蝶	jdja	544
+蛄蛹	jdjc	251
 显而易见	jdjm	110
 晨曦	jdju	299
 晨跑	jdkh	525
@@ -22711,7 +22709,7 @@ encoder:         #造词规则
 量变	jgyo	844
 晴朗	jgyv	300
 贤妻良母	jgyx	110
-早期	jhad	663
+早期	jhad	263
 虫牙	jhah	149
 虫草	jhaj	255
 早茶	jhaw	839
@@ -24154,7 +24152,8 @@ encoder:         #造词规则
 哑语	kgyg	192
 哑谜	kgyo	232
 中式	khaa	388
-中期	khad	525
+踏勘	khad	525
+中期	khad	125
 噱	khae	11
 遣散	khae	660
 嘘	khag	11
@@ -39902,7 +39901,7 @@ encoder:         #造词规则
 机智	smtd	232
 机舱	smte	103
 机务	smtl	737
-机身	smtm	413
+机身	smtm	113
 机箱	smts	367
 林则徐	smtw	110
 机敏	smtx	104
@@ -41689,9 +41688,8 @@ encoder:         #造词规则
 生疏	tgnh	167
 生怕	tgnr	310
 生性	tgnt	278
-秉性	tgnt	694
+秉性	tgnt	194
 重心	tgny	441
-秉烛	tgoj	746
 生火	tgoo	123
 重燃	tgoq	186
 生料	tgou	179
@@ -41916,7 +41914,6 @@ encoder:         #造词规则
 自戕	thnh	247
 鼻翼	thnl	173
 自己	thnn	478
-鼻屎	thno	837
 自愧	thnr	140
 篡改	thnt	322
 自发	thnt	397
@@ -41926,8 +41923,8 @@ encoder:         #造词规则
 自怜	thnw	108
 臭屁	thnx	180
 处以	thny	330
-延迟	thny	372
-自尽	thny	816
+延迟	thny	472
+自尽	thny	116
 自爆	thoj	341
 鼻烟	thol	415
 片断	thon	335
@@ -53534,7 +53531,7 @@ encoder:         #造词规则
 谈心	yony	272
 变数	yoov	306
 谈	yooy	11
-恋家	yope	539
+恋家	yope	139
 迹	yopi	11
 谜案	yopv	160
 谜	yopy	11
