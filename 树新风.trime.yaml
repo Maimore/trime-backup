@@ -440,7 +440,7 @@ preset_keyboards:
       - {click: 4, label: ghi, long_click: Home}
       - {click: 5, label: jkl, long_click: select_all}
       - {click: 6, label: mno, long_click: End}
-      - {click: Shift_L, long_click: Shift_L, label_symbol: " ", swipe_up: RepeatCommit, width: 17}
+      - {click: Shift_L, long_click: Shift_L, label_symbol: " ", swipe_up: RepeatCommit, swipe_down: Shift_L2, width: 17}
     #第三行
       - {click: "/", long_click: "\\", width: 17, key_symbol_offset_x: 20}
       - {click: 7, label: pqrs, long_click: copy}
@@ -684,7 +684,7 @@ preset_keys:
   Jingdong: {label: "\uE653", send: FUNCTION, command: run, option: "com.jd.waimai"} #京东
   # Meituan: {label: "\uE641", send: FUNCTION, command: run, option: "com.sankuai.meituan.takeoutnew"} #美团
   # Taobao: {label: "\uE642", send: FUNCTION, command: run, option: "com.taobao.taobao"} 
-  zitie: {label: "\uE06A", send: FUNCTION, command: run, option: "https://https://a3b5a2e22534849db.app.workbuddy.host/zitie/index.html?v=3"}
+  zitie: {label: "\uE06A", send: FUNCTION, command: run, option: "https://zitief37ffc6faa.app.workbuddy.host/zitie/index.html?v=1790926523796"}
   huibao: {label: "\uE05F", send: FUNCTION, command: run, option: "https://aca04846fe96057ba.app.workbuddy.host"}
   
 #扩展符号

@@ -3072,7 +3072,7 @@ encoder:         #造词规则
 勺	qyi	353
 镶	qyk	384
 镐	qym	173
-钫	qyn	181
+钫	qyn	10
 灸	qyo	286
 卵	qyt	587
 贸	qyv	610
@@ -4272,6 +4272,7 @@ encoder:         #造词规则
 售	wyk	775
 伪	wyl	574
 伉	wym	170
+仿	wyn	637
 仿	wyn	637
 焦	wyo	588
 停	wyp	764
@@ -10720,7 +10721,7 @@ encoder:         #造词规则
 砥	dqay	11
 克隆	dqbt	388
 砥砺	dqdd	293
-确有	dqde	439
+无感	dqdg	439
 戛然而止	dqdh	110
 大鱼大肉	dqdm	110
 兢	dqdq	11
@@ -13090,7 +13091,6 @@ encoder:         #造词规则
 博大	fgdd	286
 二胡	fgde	303
 老一辈	fgdj	110
-十万	fgdn	566
 十成	fgdn	436
 二月	fgee	530
 十月	fgee	582
@@ -13273,7 +13273,6 @@ encoder:         #造词规则
 赶	fhfk	11
 直击	fhfm	301
 越南	fhfm	524
-超声	fhfn	308
 过眼云烟	fhfo	110
 走过	fhfp	450
 超过	fhfp	736
@@ -14345,7 +14344,6 @@ encoder:         #造词规则
 无际	fqbf	234
 远隔	fqbg	764
 无耻	fqbh	431
-无出	fqbm	101
 无聊	fqbq	555
 无限	fqbv	642
 无双	fqcc	444
@@ -14356,7 +14354,6 @@ encoder:         #造词规则
 均有	fqde	475
 无奈	fqdf	618
 远古	fqdg	323
-远在	fqdh	322
 无非	fqdj	350
 顽	fqdm	11
 无成	fqdn	740
@@ -14374,7 +14371,6 @@ encoder:         #造词规则
 无地	fqfb	155
 远去	fqfc	321
 无需	fqfd	562
-无干	fqfg	344
 无趣	fqfh	232
 元朝	fqfj	148
 索然无味	fqfk	110
@@ -21549,7 +21545,6 @@ encoder:         #造词规则
 劣质	itrf	299
 少年	itrh	747
 洗掉	itrh	171
-省掉	itrh	867
 活捉	itrk	132
 浩气	itrn	176
 海蜇	itrr	553
@@ -27256,13 +27251,13 @@ encoder:         #造词规则
 骷	medg	11
 骨灰	medo	272
 髓	medp	11
-骨碌	medv	379
 骨膜	meea	415
 崩	meef	11
 骨胶	meeu	448
 骨干	mefg	453
 崩塌	mefj	168
-骨刺	megm	667
+贴脸开大	megd	110
+骨刺	megm	267
 崩裂	megq	153
 骨龄	mehw	104
 崩溃	meik	489
@@ -27537,7 +27532,6 @@ encoder:         #造词规则
 帆布	mhdm	406
 贝克	mhdq	373
 由此及彼	mhet	110
-贴士	mhfg	429
 帏	mhfh	11
 贝壳	mhfp	319
 风餐露宿	mhfp	110
@@ -33432,10 +33426,9 @@ encoder:         #造词规则
 鲮	qgft	10
 鳕	qgfv	10
 鱼塘	qgfy	106
-铺开	qgga	212
 桀骜不驯	qggc	110
 包青天	qggd	110
-鲸吞	qggd	441
+鲸吞	qggd	100
 鲭	qgge	10
 鲆	qggh	10
 鱼刺	qggm	575
@@ -33984,7 +33977,7 @@ encoder:         #造词规则
 免疫	qkum	554
 名将	qkuq	323
 名次	qkuq	478
-名产	qkut	660
+名产	qkut	160
 名门	qkuy	376
 名媛	qkve	231
 名妓	qkvf	131
@@ -41101,6 +41094,7 @@ encoder:         #造词规则
 长春市	tdym	110
 简而言之	tdyp	110
 辞谢	tdyt	170
+靠谱	tdyu	640
 乱说	tdyu	640
 知府	tdyw	173
 敌方	tdyy	166
@@ -41748,7 +41742,6 @@ encoder:         #造词规则
 衙役	tgtm	385
 生物	tgtr	687
 征税	tgtu	241
-征稿	tgty	473
 重塑	tgub	280
 生养	tgud	231
 生前	tgue	397
@@ -41800,10 +41793,7 @@ encoder:         #造词规则
 重启	tgyn	377
 生变	tgyo	114
 垂询	tgyq	281
-征询	tgyq	190
-征订	tgys	278
 臭豆腐	tgyw	110
-征文	tgyy	450
 版式	thaa	193
 延期	thad	458
 自荐	thad	341
@@ -42043,7 +42033,6 @@ encoder:         #造词规则
 自恋	thyo	291
 自豪	thyp	426
 自诉	thyr	106
-算话	thyt	388
 衢州	thyt	110
 自谦	thyu	380
 自认	thyw	283
@@ -43256,7 +43245,7 @@ encoder:         #造词规则
 箭靶	tuaf	322
 街头巷尾	tuan	110
 乘警	tuaq	228
-简陋	tubg	285
+简陋	tubg	670
 乘除	tubw	603
 重头戏	tuca	110
 千辛万苦	tuda	110
@@ -44483,6 +44472,7 @@ encoder:         #造词规则
 半仙	ufwm	111
 装假	ufwn	137
 凌	ufwt	11
+装傻	ufwt	295
 装作	ufwt	295
 半价	ufww	341
 总教练	ufxa	110
@@ -48217,7 +48207,7 @@ encoder:         #造词规则
 拿到	wggc	616
 全天	wggd	322
 便于	wggf	494
-全球	wggf	794
+全球	wggf	494
 合一	wggg	479
 倒下	wggh	347
 拿下	wggh	362
@@ -48671,6 +48661,7 @@ encoder:         #造词规则
 保温	wkij	496
 个中滋味	wkik	110
 命中注定	wkip	110
+保活	wkit	400
 保举	wkiw	210
 保暖	wkje	415
 保量	wkjg	104
@@ -52607,8 +52598,6 @@ encoder:         #造词规则
 主管	ygtp	657
 证物	ygtr	369
 变速箱	ygts	110
-主笔	ygtt	438
-主科	ygtu	314
 评委	ygtv	352
 语系	ygtx	162
 证券	ygud	234
@@ -54115,14 +54104,13 @@ encoder:         #造词规则
 谛听	yukr	544
 说罢	yulf	280
 详略	yult	408
-谱曲	yuma	679
+谱曲	yuma	179
 谪	yumd	11
 详见	yumq	318
 讳疾忌医	yuna	110
 详情	yung	674
-说情	yung	104
+说情	yung	564
 说书	yunn	291
-详尽	yuny	368
 谱	yuoj	11
 说完	yupf	513
 谱写	yupg	277
