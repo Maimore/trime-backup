@@ -687,7 +687,7 @@ encoder:         #造词规则
 靶	afc	297
 甘	afd	293
 鞋	aff	225
-芏	aff	262
+芏	aff	162
 蒜	afi	225
 革	afj	530
 勒	afl	625
@@ -3578,6 +3578,7 @@ encoder:         #造词规则
 航	tey	624
 丢	tfc	600
 壬	tfd	309
+待	tff	310
 竺	tff	310
 秆	tfh	149
 午	tfj	555
@@ -4193,6 +4194,7 @@ encoder:         #造词规则
 你	wqi	775
 像	wqj	951
 佝	wqk	226
+爹	wqq	151
 侈	wqq	151
 斧	wqr	393
 父	wqu	648
@@ -5552,13 +5554,11 @@ encoder:         #造词规则
 勤练	akxa	256
 苦口良药	akya	110
 或许	akyt	592
-苏式	alaa	696
 莲藕	alad	129
 功臣	alah	287
-菌落	alai	574
-茵茵	alal	782
+菌落	alai	174
 功劳	alap	261
-莲蓬	alat	772
+莲蓬	alat	172
 莲花	alaw	461
 茄子	albb	367
 苏联	albu	381
@@ -5604,13 +5604,13 @@ encoder:         #造词规则
 芝加哥	alsk	110
 功德	altf	266
 薯片	alth	116
+茴香	altj	287
 功利	altj	287
 苗条	alts	303
 菌	altu	11
 苗头	alud	201
 恭贺新禧	alup	110
 功效	aluq	512
-匦	alvv	10
 苏俄	alwt	453
 苏	alwu	11
 功绩	alxg	197
@@ -7227,7 +7227,7 @@ encoder:         #造词规则
 出境	bmfu	421
 出于	bmgf	428
 出事	bmgk	372
-出现	bmgm	837
+出现	bmgmTranslation37
 聘	bmgn	11
 出来	bmgo	873
 出殡	bmgq	446
@@ -8038,10 +8038,10 @@ encoder:         #造词规则
 骚扰	ccrd	353
 双拐	ccrk	119
 桑巴舞	ccrl	110
-骚气	ccrn	29
+骚气	ccrn	129
 双打	ccrs	153
 双手	ccrt	503
-双拼	ccru	846
+双拼	ccru	246
 双杠	ccsa	525
 桑树	ccsc	116
 双标	ccsf	440
@@ -9386,10 +9386,10 @@ encoder:         #造词规则
 有劳	deap	101
 胡子	debb	330
 郁	debh	11
-有了	debn	707
+有了	debn	207
 有限	debv	125
 有劲	deca	127
-有戏	deca	853
+有戏	deca	127
 大受欢迎	decq	110
 有难	decw	110
 有感	dedg	437
@@ -13277,7 +13277,7 @@ encoder:         #造词规则
 走过	fhfp	450
 超过	fhfp	736
 越过	fhfp	317
-赶考	fhft	707
+赶考	fhft	107
 越境	fhfu	155
 走开	fhga	286
 直到	fhgc	614
@@ -14034,7 +14034,7 @@ encoder:         #造词规则
 专心致志	fngf	110
 专一	fngg	504
 专政	fngh	122
-声带	fngk	887
+声带	fngk	187
 韧带	fngk	159
 专责	fngm	345
 救民于水火	fngo	110
@@ -14212,7 +14212,7 @@ encoder:         #造词规则
 赤道	fout	319
 赫兹	foux	770
 专业级	foxe	110
-赤诚	foyd	899
+赤诚	foyd	199
 专业户	foyn	110
 过节	fpab	316
 趋之若鹜	fpac	110
@@ -14253,7 +14253,6 @@ encoder:         #造词规则
 过当	fpiv	196
 劫富济贫	fpiw	110
 过渡	fpiy	442
-过紧	fpjc	842
 过时	fpjf	343
 过量	fpjg	364
 过早	fpjh	330
@@ -14796,7 +14795,7 @@ encoder:         #造词规则
 二等奖	ftuq	110
 老将	ftuq	258
 土特产	ftut	110
-孝道	ftut	864
+孝道	ftut	164
 老道	ftut	229
 教益	ftuw	358
 老弟	ftux	281
@@ -14981,10 +14980,9 @@ encoder:         #造词规则
 未婚夫	fvfw	110
 进退两难	fvgc	110
 雪天	fvgd	247
-雪球	fvgf	885
+雪球	fvgf	185
 雪碧	fvgr	174
 未婚妻	fvgv	110
-雪水	fvii	894
 霓裳	fvip	348
 声如洪钟	fviq	110
 埭	fviy	11
@@ -14993,7 +14991,6 @@ encoder:         #造词规则
 雪景	fvjy	284
 雪车	fvlg	133
 雪崩	fvme	235
-雪雕	fvmf	817
 雪山	fvmm	433
 雪峰	fvmt	115
 雪糕	fvou	197
@@ -15082,7 +15079,7 @@ encoder:         #造词规则
 规格	fwst	663
 干什么	fwtc	110
 规矩	fwtd	392
-零乱	fwtd	860
+零乱	fwtd	392
 霍乱	fwtd	177
 动作片	fwth	110
 堆积	fwtk	326
@@ -15272,9 +15269,9 @@ encoder:         #造词规则
 刑法	gaif	406
 弄清	gaig	213
 开水	gaii	375
-开涮	gain	818
+开涮	gain	218
 开学	gaip	437
-开溜	gaiq	837
+开溜	gaiq	137
 武当	gaiv	331
 开明	gaje	199
 型	gajf	11
@@ -15308,9 +15305,9 @@ encoder:         #造词规则
 开发	gant	340
 开屏	ganu	638
 开心	gany	340
-开业	gaog	800
-开凿	gaog	800
-武断	gaon	829
+开业	gaog	300
+开凿	gaog	300
+武断	gaon	229
 开火	gaoo	148
 开炮	gaoq	219
 开灯	gaos	192
@@ -15350,6 +15347,7 @@ encoder:         #造词规则
 开机	gasm	458
 天花板	gasr	110
 武林	gass	522
+武松	gasw	247
 开枪	gasw	247
 武术	gasy	407
 天花乱坠	gatb	110
@@ -15457,8 +15455,7 @@ encoder:         #造词规则
 玛莎	gcai	123
 致敬	gcaq	332
 静观其变	gcay	110
-致函	gcbi	105
-到了	gcbn	808
+到了	gcbn	208
 斑驳陆离	gcby	110
 不欢而散	gcda	110
 互通有无	gcdf	110
@@ -15576,7 +15573,7 @@ encoder:         #造词规则
 天地	gdfb	713
 来龙去脉	gdfe	110
 天坛	gdff	240
-天干	gdfg	816
+天干	gdfg	116
 天真	gdfh	487
 天井	gdfj	434
 天塌	gdfj	506
@@ -15872,7 +15869,7 @@ encoder:         #造词规则
 青衣	geye	285
 表计	geyf	134
 表语	geyg	415
-敷设	geym	877
+敷设	geym	177
 琢磨	geys	372
 瑶族	geyt	123
 表率	geyx	272
@@ -16002,7 +15999,7 @@ encoder:         #造词规则
 一对	ggcf	485
 天理难容	ggcp	110
 环顾	ggdb	203
-王码	ggdc	863
+王码	ggdc	113
 一套	ggdd	615
 一有	ggde	425
 事与愿违	ggdf	110
@@ -16230,7 +16227,7 @@ encoder:         #造词规则
 正直	ghfh	445
 下井	ghfj	108
 政协	ghfl	527
-正南	ghfm	625
+正南	ghfm	125
 一目十行	ghft	110
 下雪	ghfv	393
 正规	ghfw	554
@@ -16451,8 +16448,7 @@ encoder:         #造词规则
 不求	gifi	358
 还击	gifm	115
 不过	gifp	181
-不无	gifq	284
-不远	gifq	510
+不无	gifq	111
 五光十色	gifq	110
 一清二白	gifr	110
 一清二楚	gifs	110
@@ -17439,7 +17435,7 @@ encoder:         #造词规则
 烈马	gqcn	316
 死难	gqcw	138
 殉难	gqcw	339
-死磕	gqdf	872
+死磕	gqdf	172
 天外有天	gqdg	110
 残存	gqdh	296
 残破	gqdh	104
@@ -17495,7 +17491,7 @@ encoder:         #造词规则
 残照	gqjv	527
 死忠	gqkh	241
 死路	gqkh	160
-裂口	gqkk	880
+裂口	gqkk	180
 死别	gqkl	546
 殒	gqkm	11
 死因	gqld	712
@@ -17503,7 +17499,7 @@ encoder:         #造词规则
 列车	gqlg	474
 殉国	gqlg	434
 死力	gqlt	313
-死囚	gqlw	895
+死囚	gqlw	195
 殁	gqmc	11
 殃	gqmd	11
 残骸	gqme	221
@@ -17513,8 +17509,8 @@ encoder:         #造词规则
 殖民	gqna	255
 殉情	gqng	116
 死尸	gqnn	110
-残局	gqnn	858
-烈性	gqnt	868
+残局	gqnn	158
+烈性	gqnt	168
 天外飞仙	gqnw	110
 死心	gqny	179
 殆尽	gqny	192
@@ -17552,7 +17548,7 @@ encoder:         #造词规则
 赘述	gqsy	115
 聱	gqtb	10
 骜	gqtc	10
-死敌	gqtd	810
+死敌	gqtd	110
 獒	gqtd	11
 歹徒	gqtf	285
 歼	gqtf	11
@@ -17566,12 +17562,9 @@ encoder:         #造词规则
 不外乎	gqtu	110
 列入	gqty	445
 敖	gqty	11
-鳌头	gqud	677
-熬煎	gque	105
-殚	gquf	11
+殚	gquf	10
 一锅端	gqum	110
 残次	gquq	620
-殉道	gqut	581
 残疾	gqut	463
 裂痕	gquv	103
 一刹那	gqvf	110
@@ -17824,11 +17817,11 @@ encoder:         #造词规则
 平台	guck	333
 平辈	gudj	467
 平面	gudm	584
-夹克	gudq	292
+夹克	gudq	392
 平原	gudr	134
 一问三不知	gudt	110
 开卷有益	gudu	110
-平仄	gudw	498
+平仄	gudw	198
 平遥	guer	170
 平地	gufb	343
 天差地远	guff	110
@@ -17836,7 +17829,8 @@ encoder:         #造词规则
 一头雾水	gufi	110
 平坦	gufj	369
 夹击	gufm	210
-平均	gufq	820
+平均	gufq	420
+平替	gufw	390
 平壤	gufy	119
 平静	guge	525
 一病不起	gugf	110
@@ -17953,7 +17947,7 @@ encoder:         #造词规则
 不好意思	gvul	110
 妻妾	gvuv	205
 一如既往	gvvt	110
-妻女	gvvv	894
+妻女	gvvv	194
 一九八四	gvwl	110
 天怒人怨	gvwq	110
 现如今	gvwy	110
@@ -17966,7 +17960,7 @@ encoder:         #造词规则
 弄假成真	gwdf	110
 责任感	gwdg	110
 不登大雅之堂	gwdi	110
-珍奇	gwds	809
+珍奇	gwds	109
 五谷丰登	gwdw	110
 珍爱	gwep	275
 珍	gwet	11
@@ -18104,15 +18098,13 @@ encoder:         #造词规则
 毒瘾	gxub	745
 素闻	gxub	333
 素养	gxud	344
-毒辣	gxug	800
+毒辣	gxug	200
 不经意	gxuj	110
-毒瘤	gxuq	848
+毒瘤	gxuq	148
 不绝如缕	gxvx	110
 正经八百	gxwd	110
 夷	gxwi	11
-灭绝人性	gxwn	110
 严丝合缝	gxwx	110
-素食	gxwy	346
 一缕缕	gxxo	110
 互译	gxyc	160
 毒计	gxyf	192
@@ -18224,7 +18216,7 @@ encoder:         #造词规则
 班务	gytl	180
 一诺千金	gytq	110
 一试身手	gytr	110
-班委	gytv	844
+班委	gytv	144
 一语道破	gyud	110
 玉兰	gyuf	153
 玉帝	gyup	130
@@ -18266,7 +18258,7 @@ encoder:         #造词规则
 遽	haep	11
 虚脱	haeu	167
 虎贲	hafa	572
-瞒过	hafp	892
+瞒过	hafp	192
 虚无	hafq	370
 眶	hagg	11
 瞒	hagw	11
@@ -18287,7 +18279,7 @@ encoder:         #造词规则
 彪悍	hanj	186
 虚心	hany	274
 虚	haog	11
-虚火	haoo	809
+虚火	haoo	119
 觑	haoq	11
 虚数	haov	522
 虚实	hapu	245
@@ -18313,7 +18305,7 @@ encoder:         #造词规则
 虞姬	hava	154
 虚假	hawn	505
 虚伪	hawy	330
-虚线	haxg	821
+虚线	haxg	221
 虚幻	haxn	384
 眼花缭乱	haxt	110
 虚弱	haxu	326
@@ -18390,7 +18382,7 @@ encoder:         #造词规则
 肯定	hepg	701
 瞬	heph	11
 睬	hesy	11
-瞬息	heth	818
+瞬息	heth	118
 瞬间	heuj	412
 瞌	hfcl	11
 歧	hfcy	11
@@ -18477,7 +18469,7 @@ encoder:         #造词规则
 卜卦	hhff	173
 上坡	hhfh	138
 上进	hhfj	312
-目击	hhfm	342
+目击	hhfm	602
 上场	hhfn	296
 卡壳	hhfp	376
 上坟	hhfy	100
@@ -18623,7 +18615,7 @@ encoder:         #造词规则
 上级	hhxe	541
 上线	hhxg	486
 眦	hhxn	11
-卡纸	hhxq	861
+卡纸	hhxq	261
 上缴	hhxr	257
 瞠目结舌	hhxt	110
 上弦	hhxy	199
@@ -18785,7 +18777,7 @@ encoder:         #造词规则
 点拨	hkrn	277
 点播	hkrt	446
 点票	hksf	311
-点醒	hksg	881
+点醒	hksg	181
 战歌	hksk	199
 点歌	hksk	301
 战机	hksm	326
@@ -18941,8 +18933,8 @@ encoder:         #造词规则
 卢森堡	hswk	110
 盯住	hswy	272
 肯德基	htad	110
-睡莲	htal	868
-眨巴	htcn	815
+睡莲	htal	168
+眨巴	htcn	115
 瞬息万变	htdy	110
 瞧得起	htfh	111
 睡	htgf	11
@@ -22552,7 +22544,6 @@ encoder:         #造词规则
 蝻	jfmf	11
 里层	jfnf	321
 旱情	jfng	118
-时局	jfnn	765
 野性	jfnt	360
 显示屏	jfnu	110
 野心	jfny	372
@@ -22821,6 +22812,7 @@ encoder:         #造词规则
 晶莹	jjap	361
 日薪	jjau	376
 日子	jjbb	665
+蝎子	jjbb	165
 日出	jjbm	361
 电影院	jjbp	110
 是是非非	jjdd	110
@@ -23881,15 +23873,15 @@ encoder:         #造词规则
 跑龙套	kddd	110
 别有用心	kden	110
 中原逐鹿	kdey	110
-喹	kdff	11
+喹	kdff	10
 喊声	kdfn	242
 顺境	kdfu	511
 顺带	kdgk	143
-喊	kdgt	11
+喊	kdgt	12
 听而不闻	kdgu	110
-嘎	kdha	11
-嗄	kdht	11
-嘁	kdht	11
+嘎	kdha	10
+嗄	kdht	10
+嘁	kdht	10
 顺眼	kdhv	226
 顺治	kdic	117
 别有洞天	kdig	110
@@ -24675,7 +24667,6 @@ encoder:         #造词规则
 噪	kkks	11
 口吃	kkkt	288
 哭啼	kkku	184
-口轻	kklc	212
 咖啡因	kkld	110
 器皿	kklh	242
 鼍	kkln	11
@@ -24686,7 +24677,6 @@ encoder:         #造词规则
 蹉跎岁月	kkme	110
 叱咤风云	kkmf	110
 口风	kkmq	770
-口快	kknn	259
 品性	kknt	176
 串烧	kkoa	278
 品类	kkod	184
@@ -29992,7 +29982,7 @@ encoder:         #造词规则
 忪	nwcy	11
 戳破	nwdh	139
 戮	nwea	11
-鹨	nweg	11
+鹨	nweg	10
 怜爱	nwep	188
 飞禽走兽	nwfu	110
 愉	nwgj	11
@@ -30002,11 +29992,7 @@ encoder:         #造词规则
 发人深省	nwii	110
 发人深思	nwil	110
 恰当	nwiv	386
-怀俄明	nwje	110
-恰是	nwjg	189
-恰遇	nwjm	224
 司令员	nwkm	110
-戮力	nwlt	291
 怜惜	nwna	172
 丑八怪	nwnc	110
 敢作敢当	nwni	110
@@ -30043,9 +30029,7 @@ encoder:         #造词规则
 翟	nwyf	11
 惟	nwyg	11
 必修课	nwyj	110
-戳记	nwyn	222
 憔	nwyo	11
-以人为镜	nwyq	110
 以人为本	nwys	110
 尼克	nxdq	409
 尼龙	nxdx	340
@@ -30073,7 +30057,6 @@ encoder:         #造词规则
 惯偷	nxww	244
 情绪化	nxwx	110
 屁	nxxv	11
-以飨读者	nxyf	110
 屁话	nxyt	771
 尼康	nxyv	427
 迟暮	nyaj	633
@@ -30994,10 +30977,9 @@ encoder:         #造词规则
 烀	otuh	11
 炸毁	otva	146
 炸伤	otwt	386
-精选集	otwy	110
 炸弹	otxu	416
-料子	oubb	722
-粒子	oubb	406
+料子	oubb	100
+粒子	oubb	100
 断章取义	ouby	110
 断头台	ouck	110
 焖面	oudm	111
@@ -32591,8 +32573,6 @@ encoder:         #造词规则
 空虚	pwha	333
 穿上	pwhh	485
 空战	pwhk	204
-空港	pwia	594
-穷汉	pwic	132
 窄小	pwih	143
 空洞	pwim	335
 窑洞	pwim	564
@@ -32702,7 +32682,7 @@ encoder:         #造词规则
 窃笑	pwtt	208
 穿入	pwty	617
 窜入	pwty	843
-空瓶	pwua	600
+空瓶	pwua	200
 空头	pwud	259
 穿着	pwud	524
 空阔	pwui	372
@@ -33531,13 +33511,13 @@ encoder:         #造词规则
 鳔	qgsi	11
 名列榜首	qgsu	110
 鳞片	qgth	289
-鲧	qgti	11
+鲧	qgti	110
 怨不得	qgtj	110
 鲜血	qgtl	352
 钱币	qgtm	279
 鳅	qgto	11
-鲦	qgts	11
-鳆	qgtt	11
+鲦	qgts	10
+鳆	qgtt	10
 稣	qgty	11
 名列前茅	qgua	110
 犯不着	qgud	110
@@ -33686,7 +33666,7 @@ encoder:         #造词规则
 外物	qhtr	146
 外科	qhtu	601
 尔虞我诈	qhty	110
-外头	qhud	101
+外头	qhud	400
 外痔	qhuf	185
 外部	qhuk	396
 外商	qhum	454
@@ -33891,8 +33871,6 @@ encoder:         #造词规则
 名目	qkhh	318
 钟	qkhh	12
 钟点	qkhk	125
-钟鼎	qkhn	321
-句法	qkif	695
 免烫	qkin	205
 名堂	qkip	174
 名酒	qkis	148
@@ -35456,8 +35434,6 @@ encoder:         #造词规则
 摄	rbcc	11
 报	rbcy	11
 排除万难	rbdc	110
-报春	rbdw	743
-报载	rbfa	426
 拯救	rbfi	502
 报刊	rbfj	456
 报喜	rbfk	200
@@ -35467,7 +35443,7 @@ encoder:         #造词规则
 报丧	rbfu	135
 报到	rbgc	438
 报表	rbge	451
-摄政	rbgh	616
+摄政	rbgh	116
 拯	rbig	11
 拙劣	rbit	238
 报晓	rbja	166
@@ -35487,7 +35463,7 @@ encoder:         #造词规则
 报怨	rbqb	418
 报销	rbqi	327
 报名	rbqk	645
-报摊	rbrc	587
+报摊	rbrc	187
 抓耳挠腮	rbre	110
 报失	rbrw	170
 报批	rbrx	247
@@ -35498,7 +35474,7 @@ encoder:         #造词规则
 摄入	rbty	125
 报关	rbud	389
 报送	rbud	362
-报站	rbuh	723
+报站	rbuh	123
 报效	rbuq	229
 掩耳盗铃	rbuq	110
 报道	rbut	722
@@ -35506,7 +35482,7 @@ encoder:         #造词规则
 报修	rbwh	120
 摄像	rbwq	556
 报仇	rbwv	275
-报价	rbww	717
+报价	rbww	217
 报信	rbwy	177
 报纸	rbxq	612
 报应	rbyi	216
@@ -35526,7 +35502,7 @@ encoder:         #造词规则
 摊子	rcbb	176
 瓜子	rcbb	306
 抒	rcbh	11
-返聘	rcbm	291
+返聘	rcbm	121
 反了	rcbn	193
 揉	rcbs	11
 把戏	rcca	160
@@ -35899,7 +35875,7 @@ encoder:         #造词规则
 授徒	retf	428
 授牌	reth	793
 摇篮	retj	333
-摇身	retm	861
+摇身	retm	111
 授衔	retq	262
 拥入	rety	105
 摇头	reud	434
@@ -40915,7 +40891,7 @@ encoder:         #造词规则
 筹款	tdff	184
 知趣	tdfh	583
 矢志	tdfn	153
-智者	tdft	364
+智者	tdft	164
 第三者	tdft	110
 矩形	tdga	252
 知青	tdge	226
@@ -40928,7 +40904,6 @@ encoder:         #造词规则
 和而不同	tdgm	110
 舔	tdgn	11
 乱来	tdgo	198
-刮来	tdgo	198
 秘而不宣	tdgp	110
 自成一家	tdgp	110
 箴	tdgt	11
@@ -40981,7 +40956,7 @@ encoder:         #造词规则
 刮风	tdmq	168
 短见	tdmq	168
 乔丹	tdmy	423
-短剧	tdnd	154
+短剧	tdnd	105
 敌情	tdng	491
 知情	tdng	434
 矫情	tdng	160
@@ -41296,7 +41271,7 @@ encoder:         #造词规则
 行进	tffj	274
 告罄	tffn	366
 得寸进尺	tffn	110
-行者	tfft	437
+行者	tfft	137
 等	tffu	11
 行规	tffw	117
 待	tffy	11
@@ -41375,9 +41350,8 @@ encoder:         #造词规则
 待见	tfmq	342
 智者见智	tfmt	110
 选民	tfna	214
-迁居	tfnd	199
-先导	tfnf	279
-告慰	tfnf	595
+先导	tfnf	100
+告慰	tfnf	100
 行情	tfng	695
 毡	tfnk	11
 毛刷	tfnm	108
@@ -44773,14 +44747,7 @@ encoder:         #造词规则
 音节	ujab	201
 单项	ujad	327
 闽菜	ujae	626
-童鞋	ujaf	214
 单薄	ujai	229
-间或	ujak	201
-间苗	ujal	194
-童蒙	ujap	314
-音区	ujaq	675
-意匠	ujar	197
-意蕴	ujax	136
 单子	ujbb	226
 间隔	ujbg	434
 鄣	ujbh	11
@@ -44886,7 +44853,7 @@ encoder:         #造词规则
 意指	ujrx	130
 单杠	ujsa	467
 单极	ujse	418
-音标	ujsf	132
+音标	ujsf	327
 意想	ujsh	386
 单机	ujsm	472
 单板	ujsr	780
@@ -44949,7 +44916,6 @@ encoder:         #造词规则
 单方	ujyy	182
 韵文	ujyy	125
 总工	ukaa	817
-问其	ukad	141
 冲散	ukae	509
 部落	ukai	717
 问世	ukan	389
@@ -45058,8 +45024,8 @@ encoder:         #造词规则
 竞拍	ukrr	285
 冲撞	ukru	342
 冷嘲热讽	ukry	110
-冲模	uksa	819
-冲顶	uksd	606
+冲模	uksa	119
+冲顶	uksd	126
 竞标	uksf	222
 总机	uksm	340
 剖析	uksr	417
@@ -46857,7 +46823,7 @@ encoder:         #造词规则
 巢湖	vjid	276
 如临深渊	vjii	110
 娼	vjjg	11
-旭日	vjjj	308
+旭日	vjjj	108
 旮旯	vjjv	142
 如日中天	vjkg	110
 媪	vjlg	11
@@ -48135,6 +48101,7 @@ encoder:         #造词规则
 会诊	wfyw	276
 舆论	wfyw	454
 会议	wfyy	749
+传言	wfyy	249
 使节	wgab	819
 使其	wgad	500
 登基	wgad	135
@@ -48382,15 +48349,13 @@ encoder:         #造词规则
 合身	wgtm	191
 便秘	wgtn	453
 全称	wgtq	297
-傲物	wgtr	122
 便条	wgts	146
 合乎	wgtu	267
 便签	wgtw	667
 合并	wgua	310
-债券	wgud	458
-便装	wguf	783
+债券	wgud	158
+便装	wguf	183
 倒闭	wguf	372
-盒装	wguf	295
 合意	wguj	308
 全部	wguk	400
 合闸	wgul	202
@@ -48694,13 +48659,11 @@ encoder:         #造词规则
 煲	wkso	11
 保	wksy	11
 保长	wkta	361
-保先	wktf	227
 保重	wktg	272
-保身	wktm	147
 保释	wkto	589
 保管	wktp	577
-保养	wkud	574
-保送	wkud	198
+保养	wkud	410
+保送	wkud	300
 保单	wkuj	195
 保准	wkuw	177
 保姆	wkvx	461
@@ -48770,9 +48733,10 @@ encoder:         #造词规则
 侧击	wmfm	179
 仙境	wmfu	508
 佩	wmgh	11
+催更	wmgj	197
 佩带	wmgk	197
 侗	wmgk	11
-俜	wmgn	11
+俜	wmgn	10
 人财两空	wmgp	110
 佩玉	wmgy	606
 侧目	wmhh	184
@@ -49552,10 +49516,9 @@ encoder:         #造词规则
 伴我	wutr	273
 集装箱	wuts	110
 休养生息	wutt	110
-伴着	wuud	302
-佯装	wuuf	662
+佯装	wuuf	262
 伴音	wuuj	288
-倦意	wuuj	862
+倦意	wuuj	162
 位次	wuuq	697
 贫病交迫	wuur	110
 僧道	wuut	369
@@ -50643,7 +50606,6 @@ encoder:         #造词规则
 绑住	xdwy	261
 绯红	xdxa	854
 缭绕	xdxa	181
-绑缚	xdxg	222
 顷刻	xdyn	260
 毋庸	xdyv	249
 缓期	xead	502
@@ -50654,8 +50616,6 @@ encoder:         #造词规则
 组成	xedn	588
 绷	xeeg	11
 缓	xefc	11
-缓坡	xefh	765
-缓过	xefp	227
 绥远	xefq	116
 缓刑	xega	164
 组	xegg	11
@@ -52277,7 +52237,6 @@ encoder:         #造词规则
 店大欺客	ydap	110
 诚聘	ydbm	433
 庞大	yddd	468
-广厦万间	yddu	110
 言而有信	yddw	110
 唐三彩	ydes	110
 望而却步	ydfh	110
@@ -52393,7 +52352,7 @@ encoder:         #造词规则
 讲过	yffp	290
 读过	yffp	419
 讨教	yfft	220
-读者	yfft	590
+读者	yfft	220
 诗	yffy	11
 遍地开花	yfga	111
 讲理	yfgj	336
@@ -53153,8 +53112,8 @@ encoder:         #造词规则
 高歌	ymsk	255
 高楼	ymso	361
 高枕	ymsp	251
-高攀	ymsq	718
-高校	ymsu	722
+高攀	ymsq	218
+高校	ymsu	222
 市长	ymta	524
 高矮	ymtd	681
 高等	ymtf	645
@@ -53165,7 +53124,7 @@ encoder:         #造词规则
 讥笑	ymtt	290
 市委	ymtv	204
 调养	ymud	208
-调羹	ymug	396
+调羹	ymug	116
 高音	ymuj	334
 市况	ymuk	172
 高端	ymum	526
@@ -53925,7 +53884,7 @@ encoder:         #造词规则
 诈死	ytgq	114
 永垂不朽	ytgs	110
 放毒	ytgx	262
-施虐	ytha	670
+施虐	ytha	170
 诈	ythf	11
 诞	ythp	11
 放眼	ythv	365
